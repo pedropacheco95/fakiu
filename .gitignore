@@ -163,3 +163,7 @@ cython_debug/
 #Virtual environments
 .venv
 .env
+
+#Database 
+
+*.db
