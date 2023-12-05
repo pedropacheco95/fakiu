@@ -1,0 +1,4 @@
+id,name,surname,nickname,height,weight,was_born,picture,winner_picture,serious_picture,kart_picture
+1,Pedro,Pacheco,,1.8,75.0,False,Racer/20230502192616_picture.png,,,
+2,Miguel,Caeiro,,1.8,75.0,False,,,,
+3,Francisco,Freita,,1.8,75.0,False,,,,

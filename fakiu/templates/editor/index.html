@@ -1,0 +1,18 @@
+{% extends 'editor/layout.html' %}
+
+{% block title %}Fakiu{% endblock %}
+
+{% block main %}
+<div class="editor_section">
+    <div class="app_container">
+        {% for app in apps %}
+        <div class="app_icon {{app['style']}}">
+            <a href="{{app['url']}}">
+                <img class="app_image" src="{{app['app_image']}}" alt="">
+            </a>
+            <p class="app_name">{{app['name']}}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+{% endblock %}

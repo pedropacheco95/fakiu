@@ -1,0 +1,96 @@
+{% macro header_block() %}
+    <header class="global_header">
+        <div class="navbar_mobile_header">
+            <div class="navbar_mobile_line">
+                <div class="navbar_width">
+                    <div class="navbar_toggle_container">
+                        <button type="button" class="navbar_toggler" onclick="addOrRemoveClass('.navbar_toggler','collapsed');addOrRemoveClass('.navbar_main_header','show')">
+                            <span class="icon_bar"></span>
+                            <span class="icon_bar"></span>
+                            <span class="icon_bar"></span>
+                        </button>
+                    </div>
+                    <div class="logo_mobile">
+                        <a href="">
+                            <img class="main-logo" src="{{url_for('static',filename='images/logo_sepia.png')}}">
+                        </a>
+                    </div>
+                    <div class="user_button_container">
+                        <button class="user_button">
+                            <img src="{{url_for('static',filename='svg/user.svg')}}" class="user_button_image" alt="User Image">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar_main_header">
+            <div class="navbar_line first_line">
+                <div class="navbar_width">
+                    <nav class="navbar">
+                        <div class="fia_logo">
+                            <a href="">
+                                <img class="main-logo" src="{{url_for('static',filename='images/fia_logo.png')}}">
+                            </a>
+                        </div>
+                        <div class="auth_buttons_container">
+                            <a href="#" class="auth_button login_button">
+                                Sign In
+                            </a>
+                            <a href="#" class="auth_button register_button">
+                                Register
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <div class="navbar_line second_line">
+                <div class="navbar_width">
+                    <div class="logo">
+                        <a href="">
+                            <img class="main-logo" src="{{url_for('static',filename='images/logo_sepia.png')}}">
+                        </a>
+                    </div>
+                    <nav class="navbar_main_items"> 
+                        <ul class="navbar_items_container">
+                            <li class="navbar_item">
+                                <a class="navbar_link" href="" title="tournaments">
+                                    Grelha
+                                    <span class="right_chevron">&rsaquo;</span>
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a class="navbar_link" href="" title="tournaments">
+                                    Campeonatos
+                                    <span class="right_chevron">&rsaquo;</span>
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a class="navbar_link" href="" title="tournaments">
+                                    Calendário
+                                    <span class="right_chevron">&rsaquo;</span>
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a class="navbar_link" href="" title="tournaments">
+                                    Estatísticas
+                                    <span class="right_chevron">&rsaquo;</span>
+                                </a>
+                            </li>
+                            <li class="navbar_item">
+                                <a class="navbar_link" href="" title="tournaments">
+                                    Media
+                                    <span class="right_chevron">&rsaquo;</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            {% if get_flashed_messages() %}
+                <div class="alert alert-danger border text-center" role="alert">
+                    {{ get_flashed_messages() | join(" ") }}
+                </div>
+            {% endif %}
+        </div>
+    </header>
+{% endmacro %}
