@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+{% import 'macros/inputs.html' as inputs %}
+
+{% block title %}Create Racer{% endblock %}
+
+{% block main %}
+<div class="first_section">
+    <div class="content_container">
+        <div class="content_width">
+            {{ inputs.form(form_info['action'],form_info['fields'],form_info['button_name']) }}
+        </div>
+    </div>
+</div>
+{% endblock %}

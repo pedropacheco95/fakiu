@@ -1,0 +1,10 @@
+creation_datetime,last_change_datetime,id,imageable_id,name,description,address,phone,email,website,racers
+2024-02-01 11:09:05.553063,2024-02-01 11:09:05.553080,1,1,Restaurante Vila Real,O mitico restaurante de Vila Real,,,,,[]
+2024-02-01 11:09:05.579217,2024-02-01 11:09:05.579226,2,2,Restaurante Baltar,,,,,,[]
+2024-02-01 11:09:05.599089,2024-02-01 11:09:05.599098,3,3,Restaurante Fafe,,,,,,[]
+2024-02-01 11:09:05.629637,2024-02-01 11:09:05.629659,4,4,Restaurante Braga,,,,,,[]
+2024-02-01 11:09:05.654098,2024-02-01 11:09:05.654106,5,5,Restaurante Poiares,,,,,,[]
+2024-02-01 11:09:05.663429,2024-02-01 11:09:05.663435,6,6,Restaurante Viana do Castelo,,,,,,[]
+2024-02-01 11:09:05.688280,2024-02-01 11:09:05.688288,7,7,Restaurante Bombarral,,,,,,[]
+2024-02-01 11:09:05.702411,2024-02-01 11:09:05.702418,8,8,Restaurante Vila Nova de Paiva,,,,,,[]
+2024-02-01 11:09:05.708105,2024-02-01 11:09:05.708109,9,9,Restaurante Cabo do Mundo,,,,,,[]

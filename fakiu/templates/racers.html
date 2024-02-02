@@ -1,0 +1,36 @@
+{% extends 'layout.html' %}
+
+{% import 'macros/rolex.html' as rolex %}
+{% import 'macros/frontend.html' as frontend %}
+
+{% block title %}Fakiu{% endblock %}
+
+{% block main %}
+<div class="first_section_racers">
+    <div class="content_container">
+        <h1 class="racers_title"> Pilotos da FAKIU </h1>
+        <div class="content_width racers_container">
+            {% for racer in data['racers']%}
+            <div class="racer_container" data-href="{{racer.racer_url()}}" onclick="linkToDatasetHref(this)">
+                <div class="racer_info_block">
+                    <div class="racer_name_block">
+                        <span class="racer_name">{{racer.first_name}}</span>
+                        <strong class="racer_name">{{racer.surname}}</strong>
+                    </div>
+                    <div class="racer_team_block">
+                        {% if racer.team %}
+                        <span class="racer_team">{{racer.team.name}}</span>
+                        {% endif%}
+                    </div>
+                </div>
+                <div class="racer_image_block">
+                    <div class="racer_image">
+                        <img src="{{racer.full_image_url()}}" alt="">
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

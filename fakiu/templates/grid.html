@@ -1,0 +1,72 @@
+{% extends 'layout.html' %}
+
+{% import 'macros/rolex.html' as rolex %}
+{% import 'macros/frontend.html' as frontend %}
+
+{% block title %}Fakiu{% endblock %}
+
+{% block main %}
+{% set championship_table = data['championship'].get_championship_table()%}
+{% set championship_table_teams = data['championship'].get_championship_table_teams()%}
+{% set championship_table_last_race = data['championship'].get_championship_table_last_race()%}
+<div class="first_section_grid" id="grelha">
+    <div class="standings-tabs-container">
+        <ul class="standings-tabs">
+            <li class="standings-tab active_tab_title" data-active_tab="true" data-tab_id="racers_standings_container" onclick="switchTab(this)">
+                <div>PILOTOS</div>
+            </li>
+            <li class="standings-tab" data-active_tab="true" data-tab_id="teams_standings_container" onclick="switchTab(this)">
+                <div>EQUIPAS</div>
+            </li>
+            <li class="standings-tab" data-active_tab="true" data-tab_id="last_race_standings_container" onclick="switchTab(this)">
+                <div>ÚLTIMA CORRIDA</div>
+            </li>
+        </ul>
+    </div>
+    <div class="content_container standings_title_container">
+        <h2> {{data['championship'].name}}</h2>
+    </div>
+    <div class="content_container standings_container" id="racers_standings_container">
+        <div class="content_width standings_container_width">
+            <div class="podium_container">
+                {{ frontend.podium_racer(2,championship_table[1]['racer'])}}
+                {{ frontend.podium_racer(1,championship_table[0]['racer'])}}
+                {{ frontend.podium_racer(3,championship_table[2]['racer'])}}
+            </div>
+            <ul class="standings_table">
+                {% for row in championship_table %}
+                {{frontend.standings_racer_row(row)}}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="content_container standings_container inactive_tab_content" id="teams_standings_container">
+        <div class="content_width standings_container_width">
+            <div class="podium_container">
+                {{ frontend.podium_team(2,championship_table_teams[1]['team'])}}
+                {{ frontend.podium_team(1,championship_table_teams[0]['team'])}}
+                {{ frontend.podium_team(3,championship_table_teams[2]['team'])}}
+            </div>
+            <ul class="standings_table">
+                {% for row in championship_table_teams %}
+                {{frontend.standings_team_row(row)}}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="content_container standings_container inactive_tab_content" id="last_race_standings_container">
+        <div class="content_width standings_container_width">
+            <div class="podium_container">
+                {{ frontend.podium_racer(2,championship_table_last_race[1]['racer'])}}
+                {{ frontend.podium_racer(1,championship_table_last_race[0]['racer'])}}
+                {{ frontend.podium_racer(3,championship_table_last_race[2]['racer'])}}
+            </div>
+            <ul class="standings_table">
+                {% for row in championship_table_last_race %}
+                {{frontend.standings_racer_row(row)}}
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</div>
+{% endblock %}

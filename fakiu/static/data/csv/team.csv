@@ -1,0 +1,9 @@
+creation_datetime,last_change_datetime,id,name,description,abbreviation,picture_path,kart_picture_path,primary_color,secondary_color,tertiary_color,racers,championships
+2024-02-01 11:08:50.415762,2024-02-02 11:46:32.224993,1,Pandas du Cho,,P&D,Team/20240124191721_picture_path.png,Team/20240202113158_kart_picture_path.png,#22a6f9,#ffffff,#030e63,"[<Racer 9>, <Racer 4>]",[<Championship 1>]
+2024-02-01 11:08:50.461000,2024-02-02 11:46:55.532416,2,Coucinatto Racing Team,,CRT,,Team/20240202113213_kart_picture_path.png,#0e7500,#c4c71f,,"[<Racer 2>, <Racer 7>]",[<Championship 1>]
+2024-02-01 11:08:50.493348,2024-02-02 11:47:13.177579,3,Scuderia Gás à Tábua,,SGT,,Team/20240202113225_kart_picture_path.png,#eb0000,,,"[<Racer 3>, <Racer 5>]",[<Championship 1>]
+2024-02-01 11:08:50.508904,2024-02-02 11:47:23.459177,4,Underwolves,,UND,,Team/20240202113241_kart_picture_path.png,#262626,,,"[<Racer 12>, <Racer 14>]",[<Championship 1>]
+2024-02-01 11:08:50.514663,2024-02-02 11:47:33.479929,5,Chicos Rossos,,CCR,,Team/20240202113252_kart_picture_path.png,#000352,,,"[<Racer 10>, <Racer 8>]",[<Championship 1>]
+2024-02-01 11:08:50.539681,2024-02-02 11:47:47.015445,6,McGileira,,MCG,,Team/20240202113301_kart_picture_path.png,#f87935,,,"[<Racer 1>, <Racer 6>]",[<Championship 1>]
+2024-02-01 11:08:50.556014,2024-02-02 11:47:55.793587,7,AMG Raibundas,,AMR,,Team/20240202113313_kart_picture_path.png,#00997a,,,"[<Racer 15>, <Racer 16>]",[<Championship 1>]
+2024-02-01 11:08:50.581660,2024-02-02 11:48:03.205771,8,BlueFalcon,,BFN,,Team/20240202113322_kart_picture_path.png,#1c00a8,,,"[<Racer 13>, <Racer 11>]",[<Championship 1>]

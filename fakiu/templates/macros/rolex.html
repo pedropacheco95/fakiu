@@ -1,0 +1,66 @@
+{% macro rolex(id_of_container='default_rolex_container') %}
+    <script src="{{ url_for('static', filename='js/rolex.js')}}" defer></script>
+    <div class="rolex_container" id="{{id_of_container}}">
+        <div class="rolex">
+            <div class="bezel">
+                {% for i in range(15)%}
+                    <i class="bez"></i>
+                {% endfor %}
+                <div class="bezel-gradient"></div>
+            </div>
+            <i class="bez-five-min"></i>
+            <ul class="bez-num">
+                {% for i in range(1,6) %}
+                    <li>{{ i * 10 }}</li>
+                {% endfor %}
+            </ul>
+            <div class="bezel-decor">
+                {% for i in range(60) %}
+                    <i class="bez-min"></i>
+                {% endfor %}
+            </div>
+            <div class="crystal"></div>
+            <div class="face">
+                <div class="content-upper">
+                    <p class="name">Rolex</p>
+                    <p class="sub-name">FAKIU Infinity Watch</p>
+                </div>
+                <div class="content-lower">
+                    <p class="sub-text">Submariner</p>
+                    <p class="sub-num">1000<em>ft</em> = 300<em>m</em></p>
+                    <p class="sub-fine">Superlative Chronometer<br/>Officially Certified</p>
+                    <p class="sub-swiss">
+                        <span>Made</span> <span>in</span> <span>Porto</span>
+                    </p>
+                </div>
+                {% for i in range(15) %}
+                    <i class="sec"></i>
+                {% endfor %}
+                <div class="marker-triangle"></div>
+                <div class="marker-square"></div>
+                <div class="marker-circle">
+                    {% for i in range(4) %}
+                        <i class="markers-circle"></i>
+                    {% endfor %}
+                </div>
+                <div class="date"></div>
+                <div id="date-num"></div>
+
+                <div class="hand-hour">
+                    <span>
+                        <i class="hour-decor"></i>
+                    </span>
+                </div>
+                <div class="hand-min">
+                    <span></span>
+                </div>
+                
+                    <div class="hand-sec">
+                    <div class="hand-sec-details">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endmacro %}
