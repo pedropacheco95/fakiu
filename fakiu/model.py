@@ -1,9 +1,11 @@
 from .sql_db import db
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import class_mapper
+from sqlalchemy.ext.hybrid import hybrid_property
 from flask import url_for
+from datetime import datetime
 
-from sqlalchemy import Column, Integer, String, ForeignKey
+from sqlalchemy import Column, Integer, String, ForeignKey, Boolean, inspect, desc, DateTime
 from sqlalchemy.orm import relationship
 
 Base = declarative_base()
@@ -13,6 +15,21 @@ class Model():
     _name = None
     _description = None
     __tablename__ = None
+
+    creation_datetime = db.Column(DateTime, default=datetime.utcnow)
+    last_change_datetime = db.Column(DateTime, default=datetime.utcnow, onupdate=datetime.utcnow)
+
+    def __repr__(self):
+        try:
+            return f"{self.model_name}: {self.name}"
+        except:
+            ValueError('This model has no defined name, choose another way of representing')
+    
+    def __str__(self):
+        try:
+            return f"{self.model_name}: {self.name}"
+        except:
+            ValueError('This model has no defined name, choose another way of representing')
 
     def create(self):
         db.session.add(self)
@@ -70,32 +87,42 @@ class Model():
     def update_with_dict(self,values):
         relationships = class_mapper(type(self)).relationships
         for key in values.keys():
-            if key in relationships.keys() and values[key]:
-                relationship = relationships[key]
-                relationship_type = relationship.direction.name
-                if key == 'imageable':
-                    if values[key]:
-                        images = getattr(self, 'images')
-                        images.clear()
-                        for image in values[key]:
-                            images.append(image)
-                elif relationship_type == 'MANYTOONE':
-                    related_instance = self.get_related_object(key).query.filter_by(id=values[key]).first()
-                    if getattr(self,key) != related_instance:
-                        setattr(self,key,related_instance)
-                elif relationship_type in ['MANYTOMANY','ONETOMANY']:
-                    obj = self.get_related_object(key)
-                    instances = obj.query.filter(obj.id.in_(values[key])).all()
-                    field = getattr(self,key)
-                    for instance in instances:
-                        if instance not in field:
-                            field.append(instance)
-
+            if key in relationships.keys():
+                if values[key]:
+                    relationship = relationships[key]
+                    relationship_type = relationship.direction.name
+                    if key == 'imageable':
+                        if values[key]:
+                            images = getattr(self, 'images')
+                            if images:
+                                images.clear()
+                            for image in values[key]:
+                                images.append(image)
+                    elif relationship_type == 'MANYTOONE':
+                        obj = self.get_related_object(key)
+                        related_instance = obj.query.filter(obj.id.in_(values[key])).first()
+                        #related_instance = self.get_related_object(key).query.filter_by(id=values[key]).first()
+                        if getattr(self,key) != related_instance:
+                            setattr(self,key,related_instance)
+                    elif relationship_type in ['MANYTOMANY','ONETOMANY']:
+                        obj = self.get_related_object(key)
+                        instances = obj.query.filter(obj.id.in_(values[key])).all()
+                        field = getattr(self,key)
+                        for instance in instances:
+                            if instance not in field:
+                                field.append(instance)
+                                
             elif isinstance(getattr(self,key),bool) and values[key] != getattr(self,key) :
                 setattr(self,key,values[key])
 
-            elif values[key] and values[key] != getattr(self,key):
+            elif values[key] is not None and values[key] != getattr(self,key):
                 setattr(self,key,values[key])
+            else:
+                mapper = inspect(self.__class__)
+                column = mapper.columns.get(key)
+                #Deal with unset boolean values
+                if column is not None and isinstance(column.type, Boolean) and values[key] != getattr(self, key):
+                    setattr(self,key,values[key])
         self.save()
         return True
 
@@ -117,14 +144,15 @@ class Model():
     def get_display_all_data(self):
         searchable_column , table_columns = self.display_all_info()
         data = {
-            'dispalay_all_url': url_for('editor.display_all', model=self.model_name),
+            'display_all_url': url_for('editor.display_all', model=self.model_name),
             'title': self.page_title,
             'create_url': url_for('editor.create', model=self.model_name),
             'searchable_column': searchable_column,
             'table_columns': table_columns,
-            'objects': self.query.all(),
+            'objects': self.query.order_by(self.__class__.creation_datetime).all(),
             'general_delete_url': url_for('api.delete', model=self.model_name, id=''),
             'download_csv_url': url_for('api.download_csv', model=self.model_name),
+            'upload_csv_url': url_for('api.upload_csv_to_db', model=self.model_name),
         }
         return data
     
@@ -136,7 +164,7 @@ class Model():
 
     def get_display_data(self):
         data = {
-            'dispalay_all_url': url_for('editor.display_all', model=self.model_name),
+            'display_all_url': url_for('editor.display_all', model=self.model_name),
             'title': self.page_title,
             'post_url': url_for('api.edit', model=self.model_name, id=self.id),
             'delete_url': url_for('api.delete', model=self.model_name, id=self.id),
@@ -148,7 +176,7 @@ class Model():
         if not form:
             form = self.get_create_form()
         data = {
-            'dispalay_all_url': url_for('editor.display_all', model=self.model_name),
+            'display_all_url': url_for('editor.display_all', model=self.model_name),
             'title': self.page_title,
             'post_url': url_for('editor.create', model=self.model_name),
             'form': form.get_form_dict(),
@@ -168,8 +196,17 @@ class Model():
         return url_for('editor.display', model=self.model_name, id=self.id)
     
     def get_dict(self):
-        return {c.name: getattr(self, c.name) for c in self.__table__.columns}
+        instance_dict = {c.name: getattr(self, c.name) for c in self.__table__.columns}
+
+        for key, value in self.__class__.__dict__.items():
+            if isinstance(value, hybrid_property):
+                instance_dict[key] = getattr(self, key)
+        return instance_dict
     
+    def get_model_names(self):
+        return [obj.model_name for obj in self.all_tables_object().values() if hasattr(obj, 'model_name')]
+
+
 class Image(db.Model, Base):
     __tablename__ = 'images'
     id = Column(Integer, primary_key=True)
@@ -216,3 +253,6 @@ class Imageable(db.Model, Base):
         db.session.commit()
         return True
     
+class MockRequest:
+    def __init__(self, form_data):
+        self.form = form_data

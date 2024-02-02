@@ -193,17 +193,16 @@ input {
     clear: both;
 }
 
-.toggle {
-    background: none;
+.show_hide_toggle {
+    background: white;
     border: none;
     color: $color;
     font-weight: 600;
     font-size: 1.5rem;
     position: absolute;
-    right: 2.5rem;
-    top: 2.6rem;
+    right: .5rem;
+    top: .5rem;
     z-index: 9;
-    transform: rotate(270deg);
     cursor: pointer;
 }
 

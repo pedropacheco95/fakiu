@@ -1,0 +1,10 @@
+creation_datetime,last_change_datetime,id,name,description,address,phone,email,website,picture_path,racers
+2024-02-01 11:08:56.614576,2024-02-01 11:08:56.614594,1,Vila Real ,,"Aeródromo Oeste, 5000-102 Vila Real",920 268 289,,https://www.kartodromovilareal.com/,Track/20240124194304_picture_path.png,[]
+2024-02-01 11:08:56.658800,2024-02-01 11:08:56.658818,2,Baltar,,"Av. de São Silvestre 760, 4585-050 Baltar",961 082 084,,https://kartodromodebaltar.pt/,Track/20240201095512_picture_path.png,[]
+2024-02-01 11:08:56.719120,2024-02-01 11:08:56.719131,3,Fafe,,"R. de Cancelo nº444, 4820-020 Cepães",253 591 916,,https://www.rilhadas.com/areas/kartodromo,Track/20240201095814_picture_path.png,[]
+2024-02-01 11:08:56.770000,2024-02-01 11:08:56.770009,4,Braga,,"Kartódromo internacional de Braga, Palmeira, Portugal",253 607 560,secretaria@kib.pt,https://kartodromobraga.com/,Track/20240201100019_picture_path.png,[]
+2024-02-01 11:08:56.791498,2024-02-01 11:08:56.791506,5,Poiares,Jardim de Lúcifer,,966 178 052,,https://www.kartingpoiares.pt/,Track/20240201100244_picture_path.png,[]
+2024-02-01 11:08:56.811726,2024-02-01 11:08:56.811736,6,Viana,,"Lugar da Areia - Chafé, 4935-581 Viana do Castelo",912 414 443,,https://kartodromodeviana.pt/,Track/20240201100459_picture_path.png,[]
+2024-02-01 11:08:56.827326,2024-02-01 11:08:56.827333,7,Bombarral,,"Casal do, Estr. do Urmal Ap 28, 2544-909 Bombarral",262 609 330,,https://kiro-karting.com/,Track/20240201100634_picture_path.png,[]
+2024-02-01 11:08:56.847671,2024-02-01 11:08:56.847680,8,V N Paiva,,"Zona Industrial de, 3650-200 Vila Nova de Paiva",232 518 040,,https://kartodromovnpaiva.com/,Track/20240201100748_picture_path.png,[]
+2024-02-01 11:08:56.867093,2024-02-01 11:08:56.867102,9,Cabo do Mundo,,"R. de Almeiriga Norte 2242, 4455-417 Perafita",,,https://cabodomundokarting.pt/,Track/20240201101042_picture_path.png,[]

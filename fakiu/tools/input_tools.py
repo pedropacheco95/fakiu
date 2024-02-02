@@ -1,8 +1,10 @@
 
-from fakiu.tools import image_tools
+from fakiu.tools import image_tools, tools
 from datetime import datetime
+from werkzeug.security import generate_password_hash
 
 from fakiu.model import Image, Imageable
+
 
 class Field:
 
@@ -15,7 +17,7 @@ class Field:
                 'Boolean','Date',
                 'DateTime']
 
-    def __init__(self, instance_id, model, label, name, type, value = None, options = None, required = False, related_model = None):
+    def __init__(self, instance_id, model, label, name, type, value = None, options = None, required = False, related_model = None,mandatory_path = None):
         if label is None:
             raise ValueError('label is required')
         if name is None:
@@ -33,6 +35,7 @@ class Field:
         self.options = options
         self.required = required
         self.related_model = related_model
+        self.mandatory_path = mandatory_path
 
         self.set_special_fields = {
             'Picture': self.set_picture_value,
@@ -44,6 +47,7 @@ class Field:
             'Date': self.set_date_value,
             'DateTime': self.set_date_value,
             'Boolean': self.set_boolean_value,
+            'Password': self.set_password_value,
         }
 
 
@@ -62,6 +66,8 @@ class Field:
         formatted = now.strftime("%Y%m%d%H%M%S")
         file , name = image_tools.file_handler(request.files.getlist(self.name)[0]) if request.files.getlist(self.name) else None 
         name = '{folder}/{added}_{name}'.format(folder=self.model,name=name,added=formatted)
+        if self.mandatory_path:
+            name = self.mandatory_path
         saved = image_tools.save_file(file,name)
         if saved:
             self.value = name
@@ -77,6 +83,8 @@ class Field:
                 image = Image()
                 file , name = image_tools.file_handler(file)
                 name = '{folder}/{added}_{index}_{name}'.format(folder=self.model,name=name,added=formatted,index=i)
+                if self.mandatory_path:
+                    name = self.mandatory_path
                 saved = image_tools.save_file(file,name)
                 if saved:
                     image.filename = name
@@ -89,16 +97,25 @@ class Field:
         return True
     
     def set_date_value(self, request):
-        string_format = {
-            'Date': '%Y-%m-%d',
-            'DateTime': '%Y-%m-%dT%H:%M',
+        format = {
+            'Date': tools.str_to_date,
+            'DateTime': tools.str_to_datetime,
         }
-        date_obj = datetime.strptime(request.form[self.name], string_format[self.type]) if self.name in request.form else None
-        self.value = date_obj
-        return True
+
+        if self.name in request.form:
+            input_value = request.form[self.name]
+            self.value = format[self.type](input_value)
+            return True
+
+        self.value = None
+        return False
     
     def set_boolean_value(self, request):
         self.value = True if request.form[self.name] == 'true' else False
+        return True
+    
+    def set_password_value(self, request):
+        self.value = generate_password_hash(request.form[self.name])
         return True
 
     def set_value(self, request):

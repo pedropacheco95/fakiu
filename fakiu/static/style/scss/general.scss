@@ -1,5 +1,6 @@
 .global_container{
     padding-top:9rem;
+    overflow: hidden;
 }
 
 .disp-none{
@@ -213,4 +214,72 @@
 .delete_icon{
     height: 1.4rem;
     width: 1.4rem;
+}
+
+.racerList{
+    text-align: center;
+    border-radius: $border-radius;
+    background: rgb(0,84,128);
+    box-shadow: $box-shadow;
+    
+    thead{
+        font-size: 0.8rem;
+        color: rgb(172,172,172);
+        .place_column{
+            width: 10%;
+        }
+        .racer_column{
+            width: 60%;
+        }
+        .quali_column{
+            width: 15%;
+        }
+        .fl_column{
+            width: 15%;
+        }
+    }
+
+    tbody{
+        color: white;
+        tr:nth-child(odd) {
+            background: rgba(255, 255, 255, 0.5);
+        }
+
+        .fl_column{
+            .for_checkbox{
+                justify-content: center;
+            }
+        }
+        
+        .quali_column{
+            .input-box{
+                width: 100%;
+                .input-label{
+                    font-size: 1rem;
+                }
+                .input-1{
+                    text-align: center;
+                    font-size: 1.4rem;
+                    background: transparent;
+                    color: white;
+                }
+            }
+            .input-box.focus,
+            .input-box.active {
+                .input-label {
+                    top: 0;
+                    left: 0;
+                    font-size: 0.6rem;
+            }
+    }
+        }
+        .fl_column{
+            display: flex;
+            justify-content: center;
+        }
+
+        .create_new_option{
+            color: black;
+        }
+    }
 }

@@ -207,7 +207,6 @@ async function confirmBasicCreate(form,modal_id,field_name){
     const options_list = document.getElementById('options_list_' + field_name);
     const optionButtonBox = document.getElementById('selected_options_' + field_name);
     let option_div = createManyToManyOption(field_name,response.name,response.value,true);
-    console.log(option_div)
     options_list.insertBefore(option_div, options_list.lastElementChild);
     addOption(option_div);
     

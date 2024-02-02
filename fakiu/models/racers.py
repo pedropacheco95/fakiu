@@ -3,8 +3,8 @@ from fakiu.sql_db import db
 from flask import url_for
 from sqlalchemy import Column, Integer , String , Float , Boolean
 from sqlalchemy.orm import relationship
+from sqlalchemy.ext.hybrid import hybrid_property
 
-from .associations import racer_championship, racer_race, racer_restaurant, racer_team, racer_track
 from fakiu.tools.input_tools import Field, Block, Tab , Form
 
 class Racer(db.Model ,model.Model, model.Base):
@@ -14,28 +14,56 @@ class Racer(db.Model ,model.Model, model.Base):
     model_name = 'Racer'
     
     id = Column(Integer, primary_key=True)
-    name = Column(String(255))
+    first_name = Column(String(255))
     surname = Column(String(255))
     nickname = Column(String(255))
+    abbreviation = Column(String(4))
     height = Column(Float,default=1.80)
     weight = Column(Float,default=75)
-    was_born = Column(Boolean,default=False)
 
     picture = Column(String(255))
     winner_picture = Column(String(255))
     serious_picture = Column(String(255))
     kart_picture = Column(String(255))
 
-    championships = relationship('Championship', secondary=racer_championship, back_populates='racers', cascade="all")
-    races = relationship('Race',secondary=racer_race, back_populates='racers', cascade="all")
-    restaurants = relationship('Restaurant',secondary=racer_restaurant, back_populates='racers', cascade="all")
-    teams = relationship('Team',secondary=racer_team, back_populates='racers', cascade="all")
-    tracks = relationship('Track',secondary=racer_track, back_populates='racers', cascade="all")
+    championships_relations = relationship('Association_RacerChampionship', back_populates='racer', cascade="all, delete-orphan")
+    races_relations = relationship('Association_RacerRace', back_populates='racer', cascade="all, delete-orphan")
+    tracks_relations = relationship('Association_RacerTrack', back_populates='racer', cascade="all, delete-orphan")
+    restaurants_relations = relationship('Association_RacerRestaurant', back_populates='racer', cascade="all, delete-orphan")
+    teams_relations = relationship('Association_RacerTeam', back_populates='racer', cascade="all, delete-orphan")
 
-    user = relationship('User',back_populates='racer', uselist=False, cascade="all, delete-orphan")
+    @hybrid_property
+    def name(self):
+        return f"{self.first_name} {self.surname}"
+    
+    @hybrid_property
+    def championships(self):
+        return [rel.championship for rel in self.championships_relations]
+    
+    @hybrid_property
+    def races(self):
+        return [rel.race for rel in self.races_relations]
+    
+    @hybrid_property
+    def tracks(self):
+        return [rel.track for rel in self.tracks_relations]
+    
+    @hybrid_property
+    def restaurants(self):
+        return [rel.restaurant for rel in self.restaurants_relations]
+    
+    @hybrid_property
+    def teams(self):
+        return [rel.team for rel in self.teams_relations]
+    
+    @hybrid_property
+    def team(self):
+        if self.teams:
+            return self.teams[-1]
+        return None
 
     def display_all_info(self):
-        searchable_column = {'field': 'name','label':'Nome'}
+        searchable_column = {'field': 'first_name','label':'Nome'}
         table_columns = [
             {'field': 'id','label':'Numero'},
             searchable_column,
@@ -56,19 +84,19 @@ class Racer(db.Model ,model.Model, model.Base):
         # Create Info block
 
         fields = [
-            get_field(name='name',label='Nome',type='Text',required=True),
+            get_field(name='first_name',label='Primeiro nome',type='Text',required=True),
             get_field(name='surname',label='Apelido',type='Text',required=True),
-            get_field(name='was_born',label='Nasceu',type='Boolean'),
             get_field(name='nickname',label='Alcunha',type='Text'),
-            get_field(name='teams',label='Equipas',type='ManyToMany',related_model='Team'),
+            get_field(name='abbreviation',label='Abreviatura',type='Text'),
+            get_field(name='teams_relations',label='Equipas',type='ManyToMany',related_model='Association_RacerTeam'),
         ]
         info_block = Block('info_block',fields)
         form.add_block(info_block)
 
         # Create Caracteristicas Físicas tab
         fields = [
-            get_field(name='height',label='Altura',type='Float'),
-            get_field(name='weight',label='Peso',type='Float'),
+            get_field(name='height',label='Altura (m)',type='Float'),
+            get_field(name='weight',label='Peso (kg)',type='Float'),
         ]
         form.add_tab(Tab(title='Caracteristicas Físicas',fields=fields,orientation='vertical'))
 
@@ -89,7 +117,7 @@ class Racer(db.Model ,model.Model, model.Base):
 
         # Create Info block
         fields = [
-            get_field(name='name',label='Nome',type='Text',required=True),
+            get_field(name='first_name',label='Primeiro nome',type='Text',required=True),
             get_field(name='surname',label='Apelido',type='Text',required=True),
             get_field(name='nickname',label='Alcunha',type='Text'),
         ]
@@ -97,3 +125,18 @@ class Racer(db.Model ,model.Model, model.Base):
         form.add_block(info_block)
 
         return form
+
+    def full_image_url(self):
+        return url_for('static', filename=f"images/{self.picture}")
+    
+    def racer_url(self):
+        return  url_for('main.racer', id=self.id)
+    
+    def total_points(self):
+        return  sum([rel.total_points for rel in self.races_relations])
+    
+    def best_result(self):
+        return  min([rel.place for rel in self.races_relations])
+    
+    def worst_result(self):
+        return  max([rel.place for rel in self.races_relations])

@@ -1,0 +1,34 @@
+{% extends 'layout.html' %}
+
+{% import 'macros/rolex.html' as rolex %}
+{% import 'macros/frontend.html' as frontend %}
+
+{% block title %}Fakiu{% endblock %}
+
+{% block main %}
+<div class="first_section_racer">
+<div class="racer_header_container">
+    <div class="racer_picture">
+        <img src="{{data['racer'].full_image_url()}}" alt="">
+    </div>
+    <div class="racer_info">
+        <div class="racer_info_fields">
+            <div>Equipa</div>
+            <div>Nome</div>
+            <div>Apelido</div>
+            <div>Pontos</div>
+            <div>Melhor resultado</div>
+            <div>Pior resultado</div>
+        </div>
+        <div class="racer_info_fields_info">
+            <div>{{data['racer'].team.name}}</div>
+            <div>{{data['racer'].first_name}}</div>
+            <div>{{data['racer'].surname}}</div>
+            <div>{{data['racer'].total_points()}}</div>
+            <div>{{data['racer'].best_result()}}</div>
+            <div>{{data['racer'].worst_result()}}</div>
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

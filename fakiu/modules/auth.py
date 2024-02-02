@@ -6,9 +6,10 @@ import random
 from flask import Blueprint, flash, redirect, render_template, request, session, url_for , current_app
 from werkzeug.security import check_password_hash, generate_password_hash
 from sqlalchemy import null, inspect
+from flask_login import login_user, logout_user, login_required
 
 from fakiu.models import User
-from fakiu.tools import image_tools , email_tools
+from fakiu.tools import auth_tools , email_tools
 
 bp = Blueprint('auth', __name__, url_prefix='/auth')
 
@@ -45,13 +46,13 @@ def register():
             error = 'Tens que por um nome oh burro.'
 
         if error is None:
-            user = User(username=username, email=email , password= password, player_id=player.id)
+            user = User(username=username, email=email , password= password)
             user.create()
             return redirect(url_for('auth.login'))
 
         flash(error)
 
-    return render_template('auth/register.html',players=players)
+    return render_template('auth/register.html')
 
 
 @bp.route('/login', methods=('GET', 'POST'))
@@ -63,17 +64,22 @@ def login():
         user = User.query.filter_by(username=username).first()
         
         if user is None:
-            error = 'Enganaste-te no username oh burro.'
+            error = 'Wrong username.'
         elif not check_password_hash(user.password, password):
-            error = 'Enganaste-te na password oh burro.'
+            error = 'Wrong password.'
 
         
         if error is None:
-            session['user'] = user
-            
-            if username == 'admin' or user.is_admin:
-                session['admin_logged'] = True
-            return redirect(url_for('main.index'))
+            login_user(user)
+
+            if user.is_admin:
+                return redirect(url_for('editor.index'))
+        
+            next_page = request.args.get('next')
+            if not next_page or not auth_tools.is_safe_url(next_page):
+                next_page = url_for('main.index') 
+        
+            return redirect(next_page)
 
         flash(error)
 
@@ -137,8 +143,9 @@ def generate_new_code(user_id):
     return redirect(url_for('auth.verify_generated_code',user_id=user.id))
 
 @bp.route('/logout')
+@login_required
 def logout():
-    session.clear()
+    logout_user()
     return redirect(url_for('main.index'))
 
 def login_required(view):

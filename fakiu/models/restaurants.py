@@ -2,18 +2,20 @@ from fakiu import model
 from fakiu.sql_db import db
 from sqlalchemy import Column, Integer , String , Text , ForeignKey , Boolean
 from sqlalchemy.orm import relationship
+from sqlalchemy.ext.hybrid import hybrid_property
 
 from fakiu.tools.input_tools import Field, Block, Tab , Form
 
-from .associations import racer_restaurant
-
-class Restaurant(model.Imageable ,model.Model):
+class Restaurant(model.Imageable, db.Model ,model.Model, model.Base):
     __tablename__ = 'restaurants'
     __table_args__ = {'extend_existing': True}
     page_title = 'Restaurantes'
     model_name = 'Restaurant'
-
     id = Column(Integer, primary_key=True)
+
+    __mapper_args__ = {
+        'polymorphic_identity': model_name,
+    }
 
     imageable_id = Column(Integer, ForeignKey('imageables.imageable_id'))
     imageable = relationship('Imageable', backref=db.backref('restaurants', uselist=False, cascade='all,delete-orphan'),post_update=True)
@@ -25,13 +27,14 @@ class Restaurant(model.Imageable ,model.Model):
     email = Column(String(255))
     website = Column(String(255))
 
-    racers = relationship('Racer',secondary=racer_restaurant, back_populates='restaurants', cascade='all,delete')
     races = relationship('Race', back_populates='restaurant', cascade='all, delete')
-    
-    __mapper_args__ = {
-        'polymorphic_identity': model_name,
-    }
 
+    racers_relations = relationship('Association_RacerRestaurant', back_populates='restaurant', cascade="all, delete-orphan")
+
+    @hybrid_property
+    def racers(self):
+        return [rel.race for rel in self.racers_relations]
+    
     def display_all_info(self):
         searchable_column = {'field': 'name','label':'Nome'}
         table_columns = [

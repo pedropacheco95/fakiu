@@ -1,6 +1,6 @@
-{% macro general_input(type,label,name,options = None, required = False,value = False, model=False, related_model=False, readonly=False) %}
+{% macro general_input(type,label,name,options = None, required = False,value = None, model=False, related_model=False, readonly=False) %}
 
-    {% if type not in ['Text','Integer','Float','Password','Select','Picture','EditablePicture','ManyToMany','Color','Date','DateTime','Boolean','MultiplePictures'] %}
+    {% if type not in ['Text','Integer','Float','Password','Select','Picture','EditablePicture','ManyToMany','ManyToOne','OneToMany', 'Color','Date','DateTime','Boolean','MultiplePictures'] %}
         THIS INPUT DOES NOT EXIST
     {% elif type == 'Text' %}
         {{ text_input(label,name,required,value,readonly) }}
@@ -20,6 +20,10 @@
         {{ picture_input_editable(label,name,value,readonly) }}
     {% elif type == 'ManyToMany' %}
         {{ manytomany_input(label,name,required,value,model,related_model,readonly) }}
+    {% elif type == 'OneToMany' %}
+        {{ manytomany_input(label,name,required,value,model,related_model,readonly) }}
+    {% elif type == 'ManyToOne' %}
+        {{ manytoone_input(label,name,required,value,model,related_model,readonly) }}
     {% elif type == 'Color' %}
         {{ color_input(label,name,required,value,readonly) }}
     {% elif type == 'Date' %}
@@ -33,7 +37,7 @@
 {% endmacro %}
 
 {% macro text_input(label,name,required,value = value, readonly=readonly) %}
-<div class="input-box {% if value %}focus{% endif %}">
+<div class="input-box {% if value is not none %}focus{% endif %}">
     <label class="input-label">{{label}}</label>
     <input 
     type="text" 
@@ -42,13 +46,13 @@
     onfocus="setFocus(true,this,this.parentNode)" 
     onblur="setFocus(false,this,this.parentNode)" 
     autocomplete="username" 
-    {% if value %} value="{{value}}" {% endif %}
+    {% if value is not none %} value="{{value}}" {% endif %}
     {% if readonly %} readonly {% endif %}/>
 </div>
 {% endmacro %}
 
 {% macro integer_input(label,name,required,value = value, readonly=readonly) %}
-<div class="input-box {% if value %}focus{% endif %}">
+<div class="input-box {% if value is not none %}focus{% endif %}">
     <label class="input-label">{{label}}</label>
     <input 
     type="number" 
@@ -58,13 +62,13 @@
     class="input-1 {{ 'needs-validation' if required }}" 
     onfocus="setFocus(true,this,this.parentNode)"
     onblur="setFocus(false,this,this.parentNode)"
-    {% if value %} value="{{value}}" {% endif %}
+    {% if value is not none %} value="{{value}}" {% endif %}
     {% if readonly %} readonly {% endif %}/>
 </div>
 {% endmacro %}
 
 {% macro float_input(label, name, required, value=value, readonly=readonly) %}
-<div class="input-box {% if value %}focus{% endif %}">
+<div class="input-box {% if value is not none %}focus{% endif %}">
     <label class="input-label">{{label}}</label>
     <input 
     type="number" 
@@ -75,7 +79,7 @@
     class="input-1 {{ 'needs-validation' if required }}" 
     onfocus="setFocus(true,this,this.parentNode)"
     onblur="setFocus(false,this,this.parentNode)"
-    {% if value %} value="{{value}}" {% endif %}
+    {% if value is not none %} value="{{value}}" {% endif %}
     {% if readonly %} readonly {% endif %}/>
 </div>
 {% endmacro %}
@@ -92,7 +96,7 @@
     onfocus="setFocus(true,this,this.parentNode)" 
     onblur="setFocus(false,this,this.parentNode)" 
     autocomplete="current-password"
-    {% if value %} value="{{value}}" {% endif %}
+    {% if value %} value="not_the_real_password" {% endif %}
     {% if readonly %} readonly {% endif %}/>
     <div class="toggle" onclick="showHidePassword(this)"><i class="fa fa-eye"></i></div>
 </div>
@@ -101,10 +105,11 @@
 {% macro select_input(label, name, options, required, value=value, readonly=readonly) %}
 <div class="input-box {% if value %}focus{% endif %}">
     <label class="input-label">{{label}}</label>
-    <select class="input-1 {{ 'needs-validation' if required }}" name="{{name}}" onfocus="setFocus(true,this,this.parentNode)" onblur="setFocus(false,this,this.parentNode)">
+    <select class="input-1 {{ 'needs-validation' if required }}" {{disabled if value}} name="{{name}}" onfocus="setFocus(true,this,this.parentNode)" onblur="setFocus(false,this,this.parentNode)">
         <option value="-1"></option>
         {% for option in options %}
-        <option value="{{option.value}}">{{option.label}}</option>
+        {% set is_value = option==value %}
+        <option value="{{option}}" {{ 'selected' if is_value else '' }}>{{option}}</option>
         {% endfor %}
     </select>
 </div>
@@ -131,6 +136,30 @@
         <div class="create_new_option" data-field_name="{{name}}" data-url="{{url_for('api.modal_create_page',model=related_model)}}" data-title="Criar {{label}}" data-modal_id="modal_{{name}}" onclick="loadModal(this)"> Criar ... </div>
     </div>
     <select name="{{name}}" id="{{name}}" multiple style="display: none;">
+    </select>
+</div>
+{% endmacro %}
+
+
+{% macro manytoone_input(label, name, required, value=value, model=model, related_model=related_model, readonly=readonly) %}
+<div class="input-box multi_select {% if value %}focus{% endif %}">
+    <label class="input-label">{{label}}</label>
+    <div id="selected_options_{{name}}" class="input-1 selected_options {{ 'readonly_div' if readonly }}" data-name="{{name}}" onclick="showOptions(this),setFocusForManyToMany(this)">
+        {% if value %}
+        <div class="option_div not_readonly_div many_to_many_values_inputed" data-model="{{model}}" data-related_model="{{related_model}}" data-value="{{value.id}}" data-name="{{name}}" onclick="removeOption(this)">{{value.name}}<span>×</span></div>
+        {% endif %}
+    </div>
+    <div id="options_list_{{name}}" class="options_list many_to_many_container" onclick="setFocusForManyToMany(this)" style="display: none;" data-related_model="{{related_model}}" data-filled="false" data-name="{{name}}">
+        <input 
+        type="text" 
+        class="text_input_select manytomany_text_search"
+        id="text_input_select_{{name}}"
+        data-name="{{name}}"
+        onkeyup="searchOptions(this)"
+        {% if readonly %} readonly {% endif %}/>
+        <div class="create_new_option" data-field_name="{{name}}" data-url="{{url_for('api.modal_create_page',model=related_model)}}" data-title="Criar {{label}}" data-modal_id="modal_{{name}}" onclick="loadModal(this)"> Criar ... </div>
+    </div>
+    <select name="{{name}}" id="{{name}}" style="display: none;">
     </select>
 </div>
 {% endmacro %}
@@ -311,7 +340,7 @@
     onchange="setHiddenFieldValue(this)"
     {% if value %} value="{{value}}" {% endif %}
     {% if readonly %} disabled {% endif %}/>
-    <input type="hidden" name="{{name}}" id="hiddenInput_{{name}}">
+    <input type="hidden" {% if value %} value="{{value}}" {% endif %} name="{{name}}" id="hiddenInput_{{name}}">
 </div>
 {% endmacro %}
 

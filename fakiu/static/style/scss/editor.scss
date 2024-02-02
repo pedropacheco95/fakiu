@@ -39,6 +39,7 @@
     background: rgba(255,255,255,0.5);
     padding: 0.2rem!important;
     overflow: hidden;
+    aspect-ratio: 1/1;
 }
 
 .editor_navbar_item_link{
@@ -52,7 +53,7 @@
 
 .editor_navbar_item_image{
     height: 100%;
-    padding: 0.2rem;
+    object-fit: cover;
 }
 
 .editor_container{
@@ -65,7 +66,7 @@
 .editor_section{
     display: flex;
     justify-content: center;
-    height: 100vh;
+    height: 100svh;
     @include size-query(large) {
         width: 60%;
     }
@@ -81,11 +82,13 @@
     justify-items: center;
     @include size-query(large) {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     }
     @include size-query(small) {
         grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+
     }
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     align-items: center;
 }
 
@@ -99,6 +102,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .app_name{
+        text-align: center;
+    }
 }
 
 .app_icon:hover {
@@ -111,27 +118,23 @@
     padding: 0.4rem;
 }
 
-.championship_background_color{
+.product_background_color{
     background-color: #00a00a;
 }
 
-.race_background_color{
-    background-color: #0080a0;
-}
-
-.racer_background_color{
+.contribution_background_color{
     background-color: #bd1c1c;
 }
 
-.restaurant_background_color{
+.confirmation_background_color{
     background-color: #d0bc0d;
 }
 
-.team_background_color{
+.hotel_background_color{
     background-color: #22afc2;
 }
 
-.track_background_color{
+.faq_background_color{
     background-color: #e87832;
 }
 
@@ -171,6 +174,7 @@
 
 .logout_image{
     height: 60%!important;
+    object-fit: cover;
 }
 
 .editor_objects_container{
@@ -229,6 +233,7 @@
 
 .editor_objects_table_container{
     width: 100%;
+    overflow-x: scroll;
 }
 
 .editor_objects_table{
@@ -308,6 +313,17 @@
     }
 }
 
+.editor_objects_main_block.special_creation_race{
+    justify-content: center!important;
+}
+
+.editor_objects_main_block_info.special_creation_race{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .editor_objects_tabs_block{
     .dropzone-wrapper{
         height: 20vh!important;
@@ -369,7 +385,12 @@
         .dropzone-wrapper {
             height: 20rem;
             border-radius: 5px;
-            min-width: 50%;
+            @include size-query(large) {
+                min-width: 70%;
+            }
+            @include size-query(small) {
+                min-width: 100%;
+            }
         }
 
         .added_image{
@@ -381,6 +402,8 @@
             border: none;
             border-bottom: $border-color;
             border-radius: 0;
+            max-height: 14rem;
+            overflow: scroll;
         }
 
         .image_galery{
@@ -398,10 +421,12 @@
             height: 1.2rem;
             border-radius: 50%;
             margin: 0.4rem;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 2px 2px 0 rgba(0, 0, 0, 0.08);
         }
 
         .dot_label:hover{
             background: rgb(255, 255, 255);
+            transform: scale(1.1);
         }
         
         .dot_label.active_dot_label{
@@ -429,17 +454,19 @@
         border: none;
         border-bottom: 1px solid #000000;
         align-items: center;
-        width: 30%!important;
         justify-content: space-between;
+        @include size-query(large) {
+            width: 30%!important;
+        }
     }
 }
 
 .editor_objects_tabs_names{
     display: flex;
     justify-content: flex-start;
-    height: 2.5rem;
     
     @include size-query(large) {
+        height: 2.5rem;
         flex-direction: row;
     }
     @include size-query(small) {
@@ -602,17 +629,28 @@
             text-transform: uppercase;
             color: black;
         }
+
+        .over{
+            background: #e0ebfa!important;
+            transition: 250ms;
+        }
         
         .ticket-list {
             list-style: none;
             padding: 0.4rem;
             margin: 0;
             background: #d8dee6;
-            min-height: calc(100% - 2rem);
             border-radius: 0.2rem;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
+            @include size-query(large) {
+                min-height: calc(100% - 2rem);
+            }
+            @include size-query(small) {
+                min-height: 5rem;
+            }
+
             
             .ticket {
                 background-color: #f9f9f9;
@@ -652,4 +690,24 @@
     height: 2rem;
     width: 2rem;
     cursor: pointer;
+}
+
+.circle_button_container{
+    height: 3rem;
+    margin: 0.5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.circle_button_container:hover{
+    .circle_button_image{
+        box-shadow: $box-shadow-hover;
+        transform: scale(1.05);
+    }
+}
+
+.circle_button_image{
+    height: 100%;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    border-radius: 50%;
 }

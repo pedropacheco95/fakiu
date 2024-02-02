@@ -32,7 +32,7 @@
 {% macro objects_header(data) %}
 <div class="editor_objects_header">
     <div class="editor_header_elements">
-        <h2 class="editor_header_title" data-href="{{data['dispalay_all_url']}}" onclick="linkToDatasetHref(this)">{{data['title']}}</h2>
+        <h2 class="editor_header_title" data-href="{{data['display_all_url']}}" onclick="linkToDatasetHref(this)">{{data['title']}}</h2>
         <div class="header_buttons">
             <a href="{{data['create_url']}}" class="editor_header_create_button general_button">Criar</a>
             <div class="actions_container" onmouseover="showHideElement('editor_actions_dropdown')" onmouseout="showHideElement('editor_actions_dropdown')">
@@ -41,6 +41,12 @@
                     <div class="editor_actions_container">
                         <div class="editor_header_actions_dropdown_item dropdown_item" onclick="showHideElementByClass('delete_cell')" data-href="">Apagar</div>
                         <div class="editor_header_actions_dropdown_item dropdown_item" onclick="downloadCSV(this),event.stopPropagation()" data-href="{{data['download_csv_url']}}">Download</div>
+                        <div class="editor_header_actions_dropdown_item dropdown_item" onclick="callAPI(this,true),event.stopPropagation()" data-href="{{data['upload_csv_url']}}">Upload</div>
+                        {% if data['extra_actions'] %}
+                        {% for action in data['extra_actions'] %}
+                        <div class="editor_header_actions_dropdown_item dropdown_item" onclick="linkToDatasetHref(this)" data-href="{{action['url']}}">{{action['name']}}</div>
+                        {% endfor %}
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -110,7 +116,7 @@
 {% macro create_header(data) %}
 <div class="editor_objects_header">
     <div class="editor_header_elements">
-        <h2 class="editor_header_title" data-href="{{data['dispalay_all_url']}}" onclick="linkToDatasetHref(this)">{{data['title']}}</h2>
+        <h2 class="editor_header_title" data-href="{{data['display_all_url']}}" onclick="linkToDatasetHref(this)">{{data['title']}}</h2>
         <button type="submit" class="editor_header_create_button general_button">Guardar</button>
     </div>
 </div>
@@ -169,7 +175,7 @@
 {% macro edit_header(data,readonly) %}
 <div class="editor_objects_header">
     <div class="editor_header_elements {% if readonly %} readonly_header {% endif %}">
-        <h2 class="editor_header_title" data-href="{{data['dispalay_all_url']}}" onclick="linkToDatasetHref(this)">{{data['title']}}</h2>
+        <h2 class="editor_header_title" data-href="{{data['display_all_url']}}" onclick="linkToDatasetHref(this)">{{data['title']}}</h2>
         <div class="header_buttons">
             <button type="submit" class="editor_header_create_button general_button" onclick="addReadonlys()">Guardar</button>
             <button type="button" class="editor_header_edit_button general_button" onclick="removeAllReadonlys()">Editar</button>
@@ -178,6 +184,11 @@
                 <div id="editor_actions_dropdown" class="editor_header_actions_dropdown dropdown_box" style="display: none;">
                     <div class="editor_actions_container">
                         <div class="editor_header_actions_dropdown_item dropdown_item" onclick="callAPI(this,true)" data-href="{{data['delete_url']}}">Apagar</div>
+                        {% if data['extra_actions'] %}
+                        {% for action in data['extra_actions'] %}
+                        <div class="editor_header_actions_dropdown_item dropdown_item" onclick="linkToDatasetHref(this)" data-href="{{action['url']}}">{{action['name']}}</div>
+                        {% endfor %}
+                        {% endif %}
                     </div>
                 </div>
             </div>
@@ -237,3 +248,82 @@
 <iframe id="hidden_iframe" name="hidden_iframe" style="display:none;"></iframe>
 {% endmacro %}
 
+{% macro racer_row(index) %}
+<tr class="draggable" draggable="true">
+    <td class="place_column">{{index}}</td>
+    <td>
+        {{racer_input(index=index,label='Piloto',name='racer', model='Race',related_model='Racer')}}
+        <input type="hidden" class="racerPlace" name="racerPlace" value="1">
+    </td>
+    <td class="quali_column">{{qualification(index=index, label='Lugar', name='qualification')}}</td>
+    <td class="fl_column">{{fastest_lap(index=index, label='FL', name='fastest_lap')}}</td>
+</tr>
+{% endmacro %}
+
+
+{% macro racer_input(index, label, name, model=model, related_model=related_model) %}
+<div class="input-box multi_select">
+    <label class="input-label">{{label}}</label>
+    <div id="selected_options_{{name}}_{{index}}" class="input-1 selected_options" data-name="{{name}}_{{index}}" onclick="showOptions(this),setFocusForManyToMany(this)">
+    </div>
+    <div id="options_list_{{name}}_{{index}}" class="options_list many_to_many_container" onclick="setFocusForManyToMany(this)" style="display: none;" data-related_model="{{related_model}}" data-filled="false" data-name="{{name}}_{{index}}">
+        <input 
+        type="text" 
+        class="text_input_select manytomany_text_search"
+        id="text_input_select_{{name}}_{{index}}"
+        data-name="{{name}}_{{index}}"
+        onkeyup="searchOptions(this)"/>
+        <div class="create_new_option" data-field_name="{{name}}_{{index}}" data-url="{{url_for('api.modal_create_page',model=related_model)}}" data-title="Criar {{label}}" data-modal_id="modal_{{name}}_{{index}}" onclick="loadModal(this)"> Criar ... </div>
+    </div>
+    <select name="{{name}}" id="{{name}}_{{index}}" style="display: none;">
+    </select>
+</div>
+{% endmacro %}
+
+
+{% macro fastest_lap(index, label, name) %}
+<div class="input-box for_checkbox">
+    <input 
+    id="checkbox_{{name}}"
+    type="checkbox" 
+    name="step_{{name}}" 
+    class="input-3" 
+    onfocus="setFocus(true,this,this.parentNode)" 
+    onblur="setFocus(false,this,this.parentNode)"
+    data-field_name="{{name}}"
+    onchange="setHiddenFieldValue(this)"/>
+    <input type="hidden" {% if value %}value="true"{% endif %} name="{{name}}" id="hiddenInput_{{name}}">
+</div>
+{% endmacro %}
+
+{% macro qualification(index,label,name) %}
+<div class="input-box">
+    <label class="input-label">{{label}}</label>
+    <input 
+    type="number" 
+    inputmode="numeric" 
+    pattern="[0-9]*"  
+    name="{{name}}" 
+    class="input-1" 
+    onfocus="setFocus(true,this,this.parentNode)"
+    onblur="setFocus(false,this,this.parentNode)"/>
+</div>
+{% endmacro %}
+
+{% macro race_results_creation_table(number_of_rows) %}
+<table class="racerList" id="racerList">
+    <thead>
+        <tr>
+            <th class="place_column">Lugar</th>
+            <th class="racer_column">Piloto</th>
+            <th class="quali_column">Qualificação</th>
+            <th class="fl_column">Volta mais rápida</th>
+        </tr>
+    </thead>
+    <tbody id="racerListBody">
+        {% for i in range(number_of_rows) %}
+        {{racer_row(i+1)}}
+        {% endfor %}
+    </tbody>
+</table>
+{% endmacro %}

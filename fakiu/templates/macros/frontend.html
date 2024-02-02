@@ -1,0 +1,87 @@
+{% macro standings_racer_row(championship_row) %}
+<li class="standings_row">
+                    
+    <a href="" class="standings_link">
+        <div class="racer-info-container">
+            <div class="racer-place">{{championship_row['place']}}</div>
+            <div class="team-color-container"><div class="team-color" style="background:{{ championship_row['racer'].team.primary_color }}"></div></div>
+            <div class="racer-name">
+                <span class="first-name">{{championship_row['racer'].first_name}}</span>
+                <strong class="last-name">{{championship_row['racer'].surname}}</strong>
+            </div>
+            <div class="racer-team">{{championship_row['racer'].team.name}}</div>
+        </div>
+        <div class="racer-points-container">
+            <div class="racer-points">
+                <span class="racer-points-bubble">{{championship_row['points']}} PTS</span>
+            </div>
+        </div>
+    </a>
+</li>
+{% endmacro %}
+
+{% macro standings_team_row(championship_row) %}
+<li class="standings_row">
+                    
+    <a href="" class="standings_link">
+        <div class="racer-info-container">
+            <div class="racer-place">{{championship_row['place']}}</div>
+            <div class="team-color-container"><div class="team-color" style="background:{{ championship_row['team'].primary_color }}"></div></div>
+            <div class="racer-name">
+                <strong class="last-name">{{championship_row['team'].name}}</strong>
+            </div>
+            <div class="racer-team">{{championship_row['team'].racers[0].surname}}/{{championship_row['team'].racers[1].surname}}</div>
+        </div>
+        <div class="racer-points-container">
+            <div class="racer-points">
+                <span class="racer-points-bubble">{{championship_row['points']}} PTS</span>
+            </div>
+        </div>
+    </a>
+</li>
+{% endmacro %}
+
+{% macro podium_racer(place,racer)%}
+<a href="" class="podium-racer {% if place == 1 %}first-place{% elif place == 2 %}second-place{% elif place == 3 %}third-place{% else %}other-place{% endif %}">
+    <div class="podium-racer-rank-container {% if place == 1 %}first-place{% elif place == 2 %}second-place{% elif place == 3 %}third-place{% else %}other-place{% endif %}">
+        <div class="rank" style="color:{{ racer.team.primary_color }}">{{place}}</div>
+        <picture class="racer-picture-container">
+            <img loading="lazy" class="racer-picture" src="{{racer.full_image_url()}}" alt="Racer image">
+        </picture>
+        <div class="team-banner" style="background:{{ racer.team.primary_color }}"></div>
+    </div>
+    <div class="podium-racer-info">
+        <div class="podium-racer-first-name">{{racer.first_name}}</div>
+        <div class="podium-racer-surname">{{racer.surname}}</div>
+    </div>
+</a>
+{% endmacro %}
+
+{% macro podium_team(place,team)%}
+<a href="" class="podium-team {% if place == 1 %}first-place{% elif place == 2 %}second-place{% elif place == 3 %}third-place{% else %}other-place{% endif %}">
+    <div class="podium-team-rank-container {% if place == 1 %}first-place{% elif place == 2 %}second-place{% elif place == 3 %}third-place{% else %}other-place{% endif %}">
+        <div class="rank" style="color:{{ team.primary_color }}">{{place}}</div>
+        <div class="team-picture-container">
+            <img loading="lazy" class="team-picture" src="{{team.logo_full_url()}}" alt="Racer image">
+        </div>
+        <div class="team-kart-picture-container">
+            <img loading="lazy" class="team-kart-picture" src="{{team.kart_image_full_url()}}" alt="Racer image">
+        </div>
+        <div class="team-banner" style="background:{{ team.primary_color }}"></div>
+    </div>
+</a>
+{% endmacro %}
+
+{% macro countdown_timer(target_datetime) %}
+<div class="countdown-timer" data-target-datetime="{{ target_datetime }}">
+    <div class="countdown-timer-description">
+        Faltam
+    </div>
+    <div class="countdown-timer-values-container">
+        <div class="days_container">Dias<div class="time_value_box" id="days">00</div></div>
+        <div class="hours_container">Horas<div class="time_value_box" id="hours">00</div></div>
+        <div class="minutes">Mins<div class="time_value_box" id="minutes">00</div></div>
+        <div class="seconds_container">Segs<div class="time_value_box" id="seconds">00</div></div>
+    </div>
+</div>
+{% endmacro %}

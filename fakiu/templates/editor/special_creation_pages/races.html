@@ -1,0 +1,40 @@
+{% extends 'editor/layout.html' %}
+{% import 'macros/editor.html' as editor %}
+{% import 'macros/inputs.html' as inputs %}
+
+{% block title %}{{data['title']}}{% endblock %}
+
+{% block main %}
+<script src="{{ url_for('static', filename='js/editor.js')}}" defer></script>
+    <form class="editor_objects_container" action="{{data['post_url']}}" method="post" class="editor_create_form" onsubmit="updatePlaces();return validateForm(this);" enctype="multipart/form-data">
+        {{editor.create_header(data)}}
+        <div class="editor_objects_information_container">
+            <div class="editor_objects_main_block special_creation_race">
+                <div class="editor_objects_main_block_info special_creation_race">
+                    <div class="input-box">
+                        <label class="input-label">Número de Pilotos</label>
+                        <input 
+                        onchange="raceResultsCreationTable(this)"
+                        data-tableCreated="false"
+                        type="number" 
+                        inputmode="numeric" 
+                        pattern="[0-9]*"  
+                        name="number_of_racers" 
+                        class="input-1 needs-validation" 
+                        onfocus="setFocus(true,this,this.parentNode)"
+                        onblur="setFocus(false,this,this.parentNode)"/>
+                        <div class="circle_button_container" onclick="incrementNumber('number_of_racers')">
+                            <img class="circle_button_image" src="{{url_for('static',filename='images/add.png')}}">
+                        </div>
+                        <div class="circle_button_container" onclick="decreaseNumber('number_of_racers')">
+                            <img class="circle_button_image" src="{{url_for('static',filename='images/minus-sign.png')}}">
+                        </div>
+                    </div>
+                    <div id="race_table_inputs">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+{% endblock %}

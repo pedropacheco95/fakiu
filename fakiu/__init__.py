@@ -5,6 +5,7 @@ from tempfile import mkdtemp
 from flask_session import Session
 from flask_migrate import Migrate
 from flask_assets import Environment, Bundle
+from flask_login import LoginManager
 
 from . import sql_db
 from . import modules
@@ -64,12 +65,19 @@ def create_app(test_config=None):
     migrate = Migrate(app, sql_db.db)
     assets = Environment(app)
 
-    scss_bundle = Bundle('style/scss/main.scss', filters='pyscss', depends='style/scss/*.scss',output='style/styles.css')
-    assets.register('scss_all', scss_bundle)
+    scss_bundle_backend = Bundle('style/scss/main_backend.scss', filters='pyscss', depends='style/scss/*.scss',output='style/styles_backend.css')
+    scss_bundle_frontend = Bundle('style/scss/main_frontend.scss', filters='pyscss', depends='style/scss/*.scss',output='style/styles_frontend.css')
+    assets.register('scss_backend', scss_bundle_backend)
+    assets.register('scss_frontend', scss_bundle_frontend)
+
+    login_manager = LoginManager(app)
+
+    from .auth import setup_login_manager
+    setup_login_manager(login_manager)
+
+    app.login_manager = login_manager
 
     with app.app_context():
-        sql_db.db.init_app(app)
-        migrate.init_app(app, sql_db.db)
-        sql_db.db.create_all()
+        sql_db.init_db(app,migrate)
 
     return app

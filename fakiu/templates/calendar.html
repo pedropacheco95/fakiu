@@ -1,0 +1,33 @@
+{% extends 'layout.html' %}
+
+{% import 'macros/rolex.html' as rolex %}
+{% import 'macros/frontend.html' as frontend %}
+
+{% block title %}Fakiu{% endblock %}
+
+{% block main %}
+<div class="first_section_calendar">
+    <div class="content_container">
+        <h1 class="calendar_title"> Calendário {{data['championship'].name}} </h1>
+        <div class="content_width races_container">
+            {% for race in data['championship'].races%}
+            <div class="race_container">
+                <div class="round">Ronda {{loop.index}}</div>
+                <div class="race_date_block">
+                    <div class="race_date_day">{{race.datetime.day}}</div>
+                    <div class="race_date_month">{{race.get_month_name()}}</div>
+                </div>
+                <div class="race_name_block">
+                    <div class="race_name">{{race.track.name}}</div>
+                </div>
+                <div class="race_track_image_block">
+                    <div class="race_track_image">
+                        <img src="{{race.track.full_image_url()}}" alt="">
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

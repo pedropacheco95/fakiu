@@ -4,8 +4,9 @@ import sys
 import csv
 import os
 
-from flask import Blueprint, flash, g, redirect, render_template, request, session, url_for , current_app , jsonify , send_from_directory
+from flask import Blueprint, flash, g, redirect, render_template, request, session, url_for , current_app , jsonify , render_template_string
 from werkzeug.security import check_password_hash, generate_password_hash
+import jinja2
 
 from fakiu.models import *
 from fakiu.tools import tools
@@ -36,7 +37,7 @@ def delete(model,id):
 @bp.route('/query/<model>', methods=('GET', 'POST'))
 def query(model):
     model = globals()[model]
-    instances = model.query.all()
+    instances = model.query.order_by(model.creation_datetime.asc()).all()
     instances = [{'value':instance.id,'name':instance.name} for instance in instances]
     return jsonify(instances)
 
@@ -83,3 +84,25 @@ def download_csv(model):
     model = globals()[model_name]
     filepath = tools.create_csv_for_model(model)
     return filepath
+
+
+@bp.route("/upload_csv_to_db/<model>", methods =["GET", "POST"])
+def upload_csv_to_db(model):
+    model_name = model
+    model = globals()[model_name]
+    check = tools.upload_csv_to_model(model)
+    if check:
+        return jsonify(url_for('editor.display_all',model=model_name))
+    else:
+        return jsonify(sucess=False)
+
+@bp.route('/race_results_creation_table/<int:number_of_rows>')
+def get_race_results_creation_table(number_of_rows):
+    html = render_template_string('{% from "macros/editor.html" import race_results_creation_table %}{{ race_results_creation_table(number_of_rows) }}', number_of_rows=number_of_rows)
+    print()
+    return jsonify({'html': html})
+
+@bp.route('/race_results_creation_row/<int:index>/<int:number_of_rows>')
+def get_new_rows_race_results_table(index,number_of_rows):
+    html = render_template_string('{% from "macros/editor.html" import racer_row %}{% for i in range(number_of_rows) %}{{racer_row(i+1+index)}}{% endfor %}', index=index,number_of_rows=number_of_rows)
+    return jsonify({'html': html})

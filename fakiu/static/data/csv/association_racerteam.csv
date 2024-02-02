@@ -1,0 +1,17 @@
+creation_datetime,last_change_datetime,id,racer_id,team_id,name
+2024-02-01 11:15:41.350575,2024-02-01 11:15:41.350582,1,9,1,Racer: Pedro Pacheco in Team: Pandas du Cho
+2024-02-01 11:15:41.354941,2024-02-01 11:15:41.354946,2,4,1,Racer: Dinis Brito e Faro in Team: Pandas du Cho
+2024-02-01 11:15:41.360439,2024-02-01 11:15:41.360442,3,2,2,Racer: João Couceiro in Team: Coucinatto Racing Team
+2024-02-01 11:15:41.373936,2024-02-01 11:15:41.373939,4,7,2,Racer: Henrique Vilas in Team: Coucinatto Racing Team
+2024-02-01 11:15:41.380750,2024-02-01 11:15:41.380753,5,3,3,Racer: Miguel Caeiro in Team: Scuderia Gás à Tábua
+2024-02-01 11:15:41.383286,2024-02-01 11:15:41.383288,6,5,3,Racer: Alexandre Campelo in Team: Scuderia Gás à Tábua
+2024-02-01 11:15:41.386435,2024-02-01 11:15:41.386438,7,13,8,Racer: Miguel Sousa Guedes in Team: BlueFalcon
+2024-02-01 11:15:41.394685,2024-02-01 11:15:41.394688,8,11,8,Racer: Luís Dias in Team: BlueFalcon
+2024-02-01 11:15:41.400040,2024-02-01 11:15:41.400043,9,1,6,Racer: Francisco Matos Gil in Team: McGileira
+2024-02-01 11:15:41.403035,2024-02-01 11:15:41.403037,10,6,6,Racer: Luís Ferreira in Team: McGileira
+2024-02-01 11:15:41.407375,2024-02-01 11:15:41.407380,11,12,4,Racer: Gonçalo Garrett in Team: Underwolves
+2024-02-01 11:15:41.410684,2024-02-01 11:15:41.410687,12,14,4,Racer: Tomás Marrana in Team: Underwolves
+2024-02-01 11:15:41.414496,2024-02-01 11:15:41.414499,13,10,5,Racer: Francisco Freitas in Team: Chicos Rossos
+2024-02-01 11:15:41.417954,2024-02-01 11:15:41.417957,14,8,5,Racer: Francisco Lima in Team: Chicos Rossos
+2024-02-01 11:15:41.420810,2024-02-01 11:15:41.420814,15,15,7,Racer: José Pedro Raimundo in Team: AMG Raibundas
+2024-02-01 11:15:41.423698,2024-02-01 11:15:41.423700,16,16,7,Racer: António Guimarães in Team: AMG Raibundas
