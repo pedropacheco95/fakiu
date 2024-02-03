@@ -58,6 +58,7 @@ class Race(db.Model ,model.Model,model.Base):
             get_field(name='track',label='Pista',type='ManyToOne',related_model='Track'),
             get_field(name='datetime',label='Data',type='DateTime'),
             get_field(name='restaurant',label='Restaurante',type='ManyToOne',related_model='Restaurant'),
+            get_field(name='results_added',label='Resultados inseridos',type='Boolean'),
         ]
         info_block = Block('info_block',fields)
         form.add_block(info_block)

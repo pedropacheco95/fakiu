@@ -117,6 +117,7 @@ def create_race_results(model_name,model_id):
             association.create(points_dict)
 
         race.results_added = True
+        race.save()
         return redirect(url_for('editor.display',model=model_name,id=race.id))
     data = race.get_create_data(form)
 

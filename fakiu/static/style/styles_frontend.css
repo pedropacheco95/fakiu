@@ -2281,10 +2281,16 @@
         align-items: center;
         flex-direction: row;
         width: 100%; }
-        .standings_container_width .standings_row .standings_link .team-kart-picture-container {
-          height: 3rem; }
-          .standings_container_width .standings_row .standings_link .team-kart-picture-container img {
-            height: 100%; }
+        @media (min-width: 940px) {
+          .standings_container_width .standings_row .standings_link .team-kart-picture-container {
+            height: 3rem;   }
+            .standings_container_width .standings_row .standings_link .team-kart-picture-container img {
+              height: 100%;   }
+}
+        @media (max-width: 940px) {
+          .standings_container_width .standings_row .standings_link .team-kart-picture-container {
+            display: none;   }
+}
         .standings_container_width .standings_row .standings_link .racer-info-container {
           width: 90%;
           display: flex;
@@ -2385,63 +2391,70 @@
             height: 11rem; }
             .standings_container_width .podium_container .podium-racer-rank-container.third-place {
               height: 10rem; }
-              .standings_container_width .podium_container .podium-team-rank-container.first-place {
-                height: 18rem; }
-                .standings_container_width .podium_container .podium-team-rank-container.second-place {
-                  height: 17rem; }
-                  .standings_container_width .podium_container .podium-team-rank-container.third-place {
-                    height: 16rem; }
-                    .standings_container_width .podium_container .podium-racer {
-                      width: 30%;
-                      border-radius: 1rem;
-                      margin: 1rem; }
-                      .standings_container_width .podium_container .podium-racer .podium-racer-rank-container {
-                        background: white;
-                        border-top-right-radius: 5px;
-                        border-top-left-radius: 5px;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: space-between; }
-                        .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .rank {
-                          padding: 2rem;
-                          font-size: 3rem;
-                          line-height: 3rem;
-                          font-weight: bold; }
-                          .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .team-banner {
-                            height: 1rem; }
-                            .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .racer-picture-container {
-                              width: inherit;
-                              height: inherit;
-                              position: absolute;
-                              display: flex;
-                              justify-content: space-between;
-                              align-items: flex-end; }
-                              @media (min-width: 940px) {
-                                .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .racer-picture-container {
-                                  transform: translateX(25%);   }
+              @media (max-width: 940px) {
+                .standings_container_width .podium_container .podium-team-rank-container.first-place {
+                  height: 20rem;
+                  margin-bottom: 1rem;   }
 }
-                                @media (max-width: 940px) {
-                                  .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .racer-picture-container {
-                                    transform: translateX(15%);   }
+                @media (min-width: 940px) {
+                  .standings_container_width .podium_container .podium-team-rank-container.first-place {
+                    height: 18rem;   }
 }
-                                  .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .racer-picture-container img {
-                                    height: 160%; }
-                      .standings_container_width .podium_container .podium-racer .podium-racer-info {
-                        height: 6rem;
-                        background: #38383f;
-                        border-bottom-right-radius: 5px;
-                        border-bottom-left-radius: 5px;
-                        padding: 1rem;
-                        display: flex;
-                        flex-direction: column;
-                        justify-content: center; }
-                        .standings_container_width .podium_container .podium-racer .podium-racer-info .podium-racer-first-name {
-                          font-size: 1.4rem;
-                          line-height: 1.4rem; }
-                          .standings_container_width .podium_container .podium-racer .podium-racer-info .podium-racer-surname {
-                            font-size: 2rem;
-                            line-height: 2rem;
-                            font-weight: bold; }
+        .standings_container_width .podium_container .podium-team-rank-container.second-place {
+          height: 17rem; }
+          .standings_container_width .podium_container .podium-team-rank-container.third-place {
+            height: 16rem; }
+            .standings_container_width .podium_container .podium-racer {
+              width: 30%;
+              border-radius: 1rem;
+              margin: 1rem; }
+              .standings_container_width .podium_container .podium-racer .podium-racer-rank-container {
+                background: white;
+                border-top-right-radius: 5px;
+                border-top-left-radius: 5px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between; }
+                .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .rank {
+                  padding: 2rem;
+                  font-size: 3rem;
+                  line-height: 3rem;
+                  font-weight: bold; }
+                  .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .team-banner {
+                    height: 1rem; }
+                    .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .racer-picture-container {
+                      width: inherit;
+                      height: inherit;
+                      position: absolute;
+                      display: flex;
+                      justify-content: space-between;
+                      align-items: flex-end; }
+                      @media (min-width: 940px) {
+                        .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .racer-picture-container {
+                          transform: translateX(25%);   }
+}
+                        @media (max-width: 940px) {
+                          .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .racer-picture-container {
+                            transform: translateX(15%);   }
+}
+                          .standings_container_width .podium_container .podium-racer .podium-racer-rank-container .racer-picture-container img {
+                            height: 160%; }
+              .standings_container_width .podium_container .podium-racer .podium-racer-info {
+                height: 6rem;
+                background: #38383f;
+                border-bottom-right-radius: 5px;
+                border-bottom-left-radius: 5px;
+                padding: 1rem;
+                display: flex;
+                flex-direction: column;
+                justify-content: center; }
+                .standings_container_width .podium_container .podium-racer .podium-racer-info .podium-racer-first-name {
+                  font-size: 1.4rem;
+                  line-height: 1.4rem; }
+                  .standings_container_width .podium_container .podium-racer .podium-racer-info .podium-racer-surname {
+                    font-size: 2rem;
+                    line-height: 2rem;
+                    font-weight: bold; }
         .standings_container_width .podium_container .podium-team {
           width: 30%;
           border-radius: 1rem;
