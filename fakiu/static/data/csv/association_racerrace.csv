@@ -1,158 +1,158 @@
 creation_datetime,last_change_datetime,id,racer_id,race_id,qualification_place,qualification_points,place,points,punishments,extras,fastest_lap,driver_of_the_day,punishment_and_extras_description,name,total_points
-2024-02-01 11:35:49.053511,2024-02-01 11:35:49.121009,1,1,1,1,9.0,1,30.0,0.0,0.0,True,False,,Racer: Francisco Matos Gil in Race: Baltar in February 2023,40.0
-2024-02-01 11:35:49.302503,2024-02-01 11:35:49.355880,2,4,1,6,1.0,1,30.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Baltar in February 2023,31.0
-2024-02-01 11:35:49.465831,2024-02-01 11:35:49.479757,3,13,1,15,0.0,1,30.0,0.0,0.0,False,False,,Racer: Miguel Sousa Guedes in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:49.601908,2024-02-01 11:35:49.637139,4,5,1,3,6.0,1,30.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: Baltar in February 2023,36.0
-2024-02-01 11:35:49.721820,2024-02-01 11:35:49.735364,5,8,1,5,2.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: Baltar in February 2023,32.0
-2024-02-01 11:35:49.834759,2024-02-01 11:35:49.845153,6,2,1,2,8.0,1,30.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Baltar in February 2023,38.0
-2024-02-01 11:35:49.917643,2024-02-01 11:35:49.941191,7,17,1,4,5.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Ramalho in Race: Baltar in February 2023,35.0
-2024-02-01 11:35:49.999955,2024-02-01 11:35:50.009715,8,12,1,13,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.061344,2024-02-01 11:35:50.075844,9,16,1,16,0.0,1,30.0,0.0,0.0,False,False,,Racer: António Guimarães in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.180798,2024-02-01 11:35:50.214173,10,18,1,11,0.0,1,30.0,0.0,0.0,False,False,,Racer: Meco Guedes in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.300932,2024-02-01 11:35:50.370446,11,15,1,10,0.0,1,30.0,0.0,0.0,False,False,,Racer: José Pedro Raimundo in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.429429,2024-02-01 11:35:50.458263,12,7,1,7,0.0,1,30.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.528808,2024-02-01 11:35:50.537256,13,14,1,9,0.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.562878,2024-02-01 11:35:50.566469,14,10,1,12,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.587416,2024-02-01 11:35:50.591678,15,19,1,8,0.0,1,30.0,0.0,0.0,False,False,,Racer: Martinho Brito in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.621827,2024-02-01 11:35:50.628047,16,20,1,14,0.0,1,30.0,0.0,0.0,False,False,,Racer: Manuel Bruschy in Race: Baltar in February 2023,30.0
-2024-02-01 11:35:50.675738,2024-02-01 11:35:50.689053,17,11,1,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Dias in Race: Baltar in February 2023,0.0
-2024-02-01 11:35:50.702374,2024-02-01 11:35:50.715363,18,9,1,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Pedro Pacheco in Race: Baltar in February 2023,0.0
-2024-02-01 11:35:50.772792,2024-02-01 11:35:50.844978,19,3,1,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Caeiro in Race: Baltar in February 2023,0.0
-2024-02-01 11:35:50.870761,2024-02-01 11:35:50.886556,20,6,1,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Ferreira in Race: Baltar in February 2023,0.0
-2024-02-01 11:41:07.884223,2024-02-01 11:41:07.903224,21,5,2,1,9.0,1,30.0,0.0,0.0,True,False,,Racer: Alexandre Campelo in Race: Fafe in March 2023,40.0
-2024-02-01 11:41:07.953065,2024-02-01 11:41:07.979305,22,11,2,6,1.0,1,30.0,0.0,0.0,False,False,,Racer: Luís Dias in Race: Fafe in March 2023,31.0
-2024-02-01 11:41:08.036271,2024-02-01 11:41:08.053739,23,3,2,3,6.0,1,30.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: Fafe in March 2023,36.0
-2024-02-01 11:41:08.164165,2024-02-01 11:41:08.181357,24,2,2,7,0.0,1,30.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:08.245714,2024-02-01 11:41:08.273587,25,1,2,2,8.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Matos Gil in Race: Fafe in March 2023,38.0
-2024-02-01 11:41:08.364701,2024-02-01 11:41:08.388386,26,21,2,4,5.0,1,30.0,0.0,0.0,False,False,,Racer: André Costa in Race: Fafe in March 2023,35.0
-2024-02-01 11:41:08.441968,2024-02-01 11:41:08.463949,27,22,2,9,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gui Azevedo in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:08.496853,2024-02-01 11:41:08.521748,28,4,2,8,0.0,1,30.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:08.601783,2024-02-01 11:41:08.629843,29,15,2,13,0.0,1,30.0,0.0,0.0,False,False,,Racer: José Pedro Raimundo in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:08.691855,2024-02-01 11:41:08.719116,30,8,2,5,2.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: Fafe in March 2023,32.0
-2024-02-01 11:41:08.859091,2024-02-01 11:41:08.891588,31,14,2,12,0.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:08.949747,2024-02-01 11:41:08.971023,32,9,2,11,0.0,1,30.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:09.035201,2024-02-01 11:41:09.052536,33,16,2,15,0.0,1,30.0,0.0,0.0,False,False,,Racer: António Guimarães in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:09.114226,2024-02-01 11:41:09.139960,34,12,2,14,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:09.235734,2024-02-01 11:41:09.261524,35,20,2,16,0.0,1,30.0,0.0,0.0,False,False,,Racer: Manuel Bruschy in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:09.283095,2024-02-01 11:41:09.291649,36,23,2,10,0.0,1,30.0,0.0,0.0,False,False,,Racer: Pedro Pontes in Race: Fafe in March 2023,30.0
-2024-02-01 11:41:09.307028,2024-02-01 11:41:09.311409,37,10,2,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Freitas in Race: Fafe in March 2023,0.0
-2024-02-01 11:41:09.317111,2024-02-01 11:41:09.326843,38,13,2,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: Fafe in March 2023,0.0
-2024-02-01 11:41:09.333456,2024-02-01 11:41:09.342070,39,6,2,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Ferreira in Race: Fafe in March 2023,0.0
-2024-02-01 11:41:09.351833,2024-02-01 11:41:09.356582,40,7,2,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Henrique Vilas in Race: Fafe in March 2023,0.0
-2024-02-01 11:44:43.930610,2024-02-01 11:44:43.940904,41,2,3,3,6.0,1,30.0,0.0,0.0,True,False,,Racer: João Couceiro in Race: Braga in April 2023,37.0
-2024-02-01 11:44:44.035198,2024-02-01 11:44:44.059181,42,8,3,8,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.121766,2024-02-01 11:44:44.133624,43,3,3,1,9.0,1,30.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: Braga in April 2023,39.0
-2024-02-01 11:44:44.165778,2024-02-01 11:44:44.171890,44,11,3,4,5.0,1,30.0,0.0,0.0,False,False,,Racer: Luís Dias in Race: Braga in April 2023,35.0
-2024-02-01 11:44:44.237775,2024-02-01 11:44:44.256862,45,1,3,2,8.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Matos Gil in Race: Braga in April 2023,38.0
-2024-02-01 11:44:44.292386,2024-02-01 11:44:44.320896,46,6,3,5,2.0,1,30.0,0.0,0.0,False,False,,Racer: Luís Ferreira in Race: Braga in April 2023,32.0
-2024-02-01 11:44:44.394947,2024-02-01 11:44:44.420580,47,4,3,6,1.0,1,30.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Braga in April 2023,31.0
-2024-02-01 11:44:44.447609,2024-02-01 11:44:44.455017,48,9,3,10,0.0,1,30.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.495852,2024-02-01 11:44:44.514022,49,10,3,12,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.559509,2024-02-01 11:44:44.582293,50,13,3,7,0.0,1,30.0,0.0,0.0,False,False,,Racer: Miguel Sousa Guedes in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.616917,2024-02-01 11:44:44.636956,51,12,3,14,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.688456,2024-02-01 11:44:44.699749,52,24,3,13,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Semelhe in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.764583,2024-02-01 11:44:44.789366,53,14,3,9,0.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.841367,2024-02-01 11:44:44.853222,54,7,3,11,0.0,1,30.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.893230,2024-02-01 11:44:44.899948,55,25,3,15,0.0,1,30.0,0.0,0.0,False,False,,Racer: José Maria Garrett in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.933370,2024-02-01 11:44:44.944136,56,26,3,16,0.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Pacheco in Race: Braga in April 2023,30.0
-2024-02-01 11:44:44.997982,2024-02-01 11:44:45.023109,57,16,3,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: Braga in April 2023,0.0
-2024-02-01 11:44:45.067563,2024-02-01 11:44:45.081928,58,5,3,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Alexandre Campelo in Race: Braga in April 2023,0.0
-2024-02-01 11:44:45.119555,2024-02-01 11:44:45.157375,59,15,3,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: Braga in April 2023,0.0
-2024-02-01 11:48:26.337383,2024-02-01 11:48:26.343708,60,3,4,0,0.0,1,30.0,0.0,0.0,True,False,,Racer: Miguel Caeiro in Race: Poiares in April 2024,31.0
-2024-02-01 11:48:26.464350,2024-02-01 11:48:26.472014,61,1,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Matos Gil in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.489459,2024-02-01 11:48:26.492993,62,4,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.511773,2024-02-01 11:48:26.516186,63,13,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Miguel Sousa Guedes in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.533642,2024-02-01 11:48:26.538639,64,10,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.558116,2024-02-01 11:48:26.561211,65,6,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Luís Ferreira in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.576684,2024-02-01 11:48:26.580066,66,7,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.594506,2024-02-01 11:48:26.600162,67,8,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.643600,2024-02-01 11:48:26.682361,68,27,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Frederico Batista in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.823873,2024-02-01 11:48:26.843267,69,24,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Semelhe in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.901326,2024-02-01 11:48:26.911134,70,16,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: António Guimarães in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.942559,2024-02-01 11:48:26.952633,71,2,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:26.985957,2024-02-01 11:48:26.999963,72,12,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:27.056102,2024-02-01 11:48:27.065796,73,28,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: Afonso Menezes in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:27.155753,2024-02-01 11:48:27.167368,74,29,4,0,0.0,1,30.0,0.0,0.0,False,False,,Racer: José Couceiro in Race: Poiares in April 2024,30.0
-2024-02-01 11:48:27.320242,2024-02-01 11:48:27.400193,75,5,4,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Alexandre Campelo in Race: Poiares in April 2024,0.0
-2024-02-01 11:48:27.442952,2024-02-01 11:48:27.459514,76,9,4,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Pedro Pacheco in Race: Poiares in April 2024,0.0
-2024-02-01 11:48:27.469793,2024-02-01 11:48:27.479710,77,11,4,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Dias in Race: Poiares in April 2024,0.0
-2024-02-01 11:48:27.493529,2024-02-01 11:48:27.503053,78,14,4,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Tomás Marrana in Race: Poiares in April 2024,0.0
-2024-02-01 11:48:27.510194,2024-02-01 11:48:27.514106,79,15,4,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: Poiares in April 2024,0.0
-2024-02-01 11:53:42.795155,2024-02-01 11:53:42.805311,80,1,5,3,6.0,1,30.0,0.0,0.0,True,False,,Racer: Francisco Matos Gil in Race: Viana in August 2024,37.0
-2024-02-01 11:53:42.872261,2024-02-01 11:53:42.885258,81,6,5,5,2.0,1,30.0,0.0,0.0,False,False,,Racer: Luís Ferreira in Race: Viana in August 2024,32.0
-2024-02-01 11:53:42.946342,2024-02-01 11:53:42.955803,82,3,5,2,8.0,1,30.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: Viana in August 2024,38.0
-2024-02-01 11:53:42.986361,2024-02-01 11:53:43.024492,83,2,5,4,5.0,1,30.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Viana in August 2024,35.0
-2024-02-01 11:53:43.098954,2024-02-01 11:53:43.111573,84,5,5,1,9.0,1,30.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: Viana in August 2024,39.0
-2024-02-01 11:53:43.185703,2024-02-01 11:53:43.204974,85,4,5,6,1.0,1,30.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Viana in August 2024,31.0
-2024-02-01 11:53:43.258187,2024-02-01 11:53:43.269224,86,9,5,8,0.0,1,30.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.318027,2024-02-01 11:53:43.337341,87,14,5,10,0.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.372574,2024-02-01 11:53:43.382959,88,10,5,7,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.420285,2024-02-01 11:53:43.427717,89,7,5,9,0.0,1,30.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.464089,2024-02-01 11:53:43.480296,90,11,5,11,0.0,1,30.0,0.0,0.0,False,False,,Racer: Luís Dias in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.530294,2024-02-01 11:53:43.542367,91,12,5,14,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.579897,2024-02-01 11:53:43.593371,92,20,5,12,0.0,1,30.0,0.0,0.0,False,False,,Racer: Manuel Bruschy in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.657594,2024-02-01 11:53:43.668001,93,30,5,13,0.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Duarte in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.703445,2024-02-01 11:53:43.710468,94,26,5,15,0.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Pacheco in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.756272,2024-02-01 11:53:43.767243,95,31,5,16,0.0,1,30.0,0.0,0.0,False,False,,Racer: Maria Campelo in Race: Viana in August 2024,30.0
-2024-02-01 11:53:43.841919,2024-02-01 11:53:43.855857,96,8,5,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Lima in Race: Viana in August 2024,0.0
-2024-02-01 11:53:43.866236,2024-02-01 11:53:43.886077,97,16,5,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: Viana in August 2024,0.0
-2024-02-01 11:53:43.896994,2024-02-01 11:53:43.903854,98,13,5,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: Viana in August 2024,0.0
-2024-02-01 11:53:43.916266,2024-02-01 11:53:43.929926,99,15,5,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: Viana in August 2024,0.0
-2024-02-01 11:57:44.438216,2024-02-01 11:57:44.459956,100,4,6,2,8.0,1,30.0,0.0,0.0,True,False,,Racer: Dinis Brito e Faro in Race: Bombarral in September 2023,39.0
-2024-02-01 11:57:44.481672,2024-02-01 11:57:44.487701,101,5,6,1,9.0,1,30.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: Bombarral in September 2023,39.0
-2024-02-01 11:57:44.507567,2024-02-01 11:57:44.511283,102,2,6,3,6.0,1,30.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Bombarral in September 2023,36.0
-2024-02-01 11:57:44.524990,2024-02-01 11:57:44.529200,103,15,6,7,0.0,1,30.0,0.0,0.0,False,False,,Racer: José Pedro Raimundo in Race: Bombarral in September 2023,30.0
-2024-02-01 11:57:44.545842,2024-02-01 11:57:44.548640,104,7,6,5,2.0,1,30.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Bombarral in September 2023,32.0
-2024-02-01 11:57:44.560772,2024-02-01 11:57:44.565288,105,14,6,6,1.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Bombarral in September 2023,31.0
-2024-02-01 11:57:44.576931,2024-02-01 11:57:44.579881,106,17,6,4,5.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Ramalho in Race: Bombarral in September 2023,35.0
-2024-02-01 11:57:44.591311,2024-02-01 11:57:44.594032,107,31,6,8,0.0,1,30.0,0.0,0.0,False,False,,Racer: Maria Campelo in Race: Bombarral in September 2023,30.0
-2024-02-01 11:57:44.605110,2024-02-01 11:57:44.607549,108,27,6,9,0.0,1,30.0,0.0,0.0,False,False,,Racer: Frederico Batista in Race: Bombarral in September 2023,30.0
-2024-02-01 11:57:44.617494,2024-02-01 11:57:44.622095,109,30,6,10,0.0,1,30.0,0.0,0.0,False,False,,Racer: Tomás Duarte in Race: Bombarral in September 2023,30.0
-2024-02-01 11:57:44.633265,2024-02-01 11:57:44.636122,110,28,6,11,0.0,1,30.0,0.0,0.0,False,False,,Racer: Afonso Menezes in Race: Bombarral in September 2023,30.0
-2024-02-01 11:57:44.645179,2024-02-01 11:57:44.647712,111,25,6,12,0.0,1,30.0,0.0,0.0,False,False,,Racer: José Maria Garrett in Race: Bombarral in September 2023,30.0
-2024-02-01 11:57:44.665699,2024-02-01 11:57:44.668772,112,1,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Matos Gil in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.671822,2024-02-01 11:57:44.674707,113,3,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Caeiro in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.677268,2024-02-01 11:57:44.681079,114,6,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Ferreira in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.683942,2024-02-01 11:57:44.686740,115,8,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Lima in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.690102,2024-02-01 11:57:44.693510,116,9,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Pedro Pacheco in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.696579,2024-02-01 11:57:44.699534,117,10,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Freitas in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.702255,2024-02-01 11:57:44.705022,118,11,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Dias in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.707619,2024-02-01 11:57:44.711103,119,12,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Gonçalo Garrett in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.713516,2024-02-01 11:57:44.716014,120,13,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: Bombarral in September 2023,0.0
-2024-02-01 11:57:44.718474,2024-02-01 11:57:44.721234,121,16,6,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: Bombarral in September 2023,0.0
-2024-02-01 13:43:34.211939,2024-02-01 13:43:34.250652,122,1,7,2,8.0,1,30.0,0.0,0.0,True,False,,Racer: Francisco Matos Gil in Race: V N Paiva in October 2023,39.0
-2024-02-01 13:43:34.342871,2024-02-01 13:43:34.375194,123,6,7,4,5.0,1,30.0,0.0,0.0,False,False,,Racer: Luís Ferreira in Race: V N Paiva in October 2023,35.0
-2024-02-01 13:43:34.430962,2024-02-01 13:43:34.465821,124,4,7,8,0.0,1,30.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: V N Paiva in October 2023,30.0
-2024-02-01 13:43:34.540334,2024-02-01 13:43:34.547520,125,2,7,10,0.0,1,30.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: V N Paiva in October 2023,30.0
-2024-02-01 13:43:34.616547,2024-02-01 13:43:34.656858,126,9,7,5,2.0,1,30.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: V N Paiva in October 2023,32.0
-2024-02-01 13:43:34.720897,2024-02-01 13:43:34.770288,127,3,7,7,0.0,1,30.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: V N Paiva in October 2023,30.0
-2024-02-01 13:43:34.837259,2024-02-01 13:43:34.859851,128,11,7,12,0.0,1,30.0,0.0,0.0,False,False,,Racer: Luís Dias in Race: V N Paiva in October 2023,30.0
-2024-02-01 13:43:34.910216,2024-02-01 13:43:34.916545,129,8,7,6,1.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: V N Paiva in October 2023,31.0
-2024-02-01 13:43:34.963446,2024-02-01 13:43:34.984953,130,7,7,9,0.0,1,30.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: V N Paiva in October 2023,30.0
-2024-02-01 13:43:35.026571,2024-02-01 13:43:35.036142,131,10,7,11,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: V N Paiva in October 2023,30.0
-2024-02-01 13:43:35.163723,2024-02-01 13:43:35.180408,132,5,7,1,9.0,1,30.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: V N Paiva in October 2023,39.0
-2024-02-01 13:43:35.233020,2024-02-01 13:43:35.242136,133,12,7,13,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: V N Paiva in October 2023,30.0
-2024-02-01 13:43:35.298673,2024-02-01 13:43:35.327946,134,17,7,3,6.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Ramalho in Race: V N Paiva in October 2023,36.0
-2024-02-01 13:43:35.439855,2024-02-01 13:43:35.456907,135,16,7,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: V N Paiva in October 2023,0.0
-2024-02-01 13:43:35.475228,2024-02-01 13:43:35.483021,136,13,7,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: V N Paiva in October 2023,0.0
-2024-02-01 13:43:35.492746,2024-02-01 13:43:35.503265,137,14,7,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Tomás Marrana in Race: V N Paiva in October 2023,0.0
-2024-02-01 13:43:35.519966,2024-02-01 13:43:35.534983,138,15,7,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: V N Paiva in October 2023,0.0
-2024-02-01 13:46:02.659937,2024-02-01 13:46:02.689178,139,2,8,5,2.0,1,30.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Vila Real  in November 2023,32.0
-2024-02-01 13:46:02.740635,2024-02-01 13:46:02.757847,140,3,8,4,5.0,1,30.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: Vila Real  in November 2023,35.0
-2024-02-01 13:46:02.795531,2024-02-01 13:46:02.801111,141,9,8,6,1.0,1,30.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: Vila Real  in November 2023,31.0
-2024-02-01 13:46:02.830080,2024-02-01 13:46:02.839535,142,7,8,8,0.0,1,30.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Vila Real  in November 2023,30.0
-2024-02-01 13:46:02.886976,2024-02-01 13:46:02.941495,143,29,8,2,8.0,1,30.0,0.0,0.0,False,False,,Racer: José Couceiro in Race: Vila Real  in November 2023,38.0
-2024-02-01 13:46:03.032615,2024-02-01 13:46:03.044754,144,10,8,7,0.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Vila Real  in November 2023,30.0
-2024-02-01 13:46:03.085230,2024-02-01 13:46:03.108156,145,17,8,1,9.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Ramalho in Race: Vila Real  in November 2023,39.0
-2024-02-01 13:46:03.161008,2024-02-01 13:46:03.177278,146,4,8,9,0.0,1,30.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Vila Real  in November 2023,30.0
-2024-02-01 13:46:03.224527,2024-02-01 13:46:03.237651,147,12,8,10,0.0,1,30.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Vila Real  in November 2023,30.0
-2024-02-01 13:46:03.346962,2024-02-01 13:46:03.371997,148,5,8,3,6.0,1,30.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: Vila Real  in November 2023,36.0
-2024-02-01 13:46:03.468387,2024-02-01 13:46:03.482437,149,31,8,11,0.0,1,30.0,0.0,0.0,False,False,,Racer: Maria Campelo in Race: Vila Real  in November 2023,30.0
-2024-02-01 13:46:03.575721,2024-02-01 13:46:03.593280,150,1,8,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Matos Gil in Race: Vila Real  in November 2023,0.0
-2024-02-01 13:46:03.600583,2024-02-01 13:46:03.607048,151,6,8,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Ferreira in Race: Vila Real  in November 2023,0.0
-2024-02-01 13:46:03.612805,2024-02-01 13:46:03.618761,152,8,8,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Lima in Race: Vila Real  in November 2023,0.0
-2024-02-01 13:46:03.626464,2024-02-01 13:46:03.642129,153,11,8,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Dias in Race: Vila Real  in November 2023,0.0
-2024-02-01 13:46:03.654208,2024-02-01 13:46:03.662994,154,13,8,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: Vila Real  in November 2023,0.0
-2024-02-01 13:46:03.675226,2024-02-01 13:46:03.682339,155,14,8,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Tomás Marrana in Race: Vila Real  in November 2023,0.0
-2024-02-01 13:46:03.693429,2024-02-01 13:46:03.699568,156,15,8,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: Vila Real  in November 2023,0.0
-2024-02-01 13:46:03.714571,2024-02-01 13:46:03.725114,157,16,8,0,0.0,0,1.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: Vila Real  in November 2023,0.0
+2024-02-02 20:08:30.235294,2024-02-02 20:21:23.109321,1,1,1,1,9.0,1,30.0,0.0,0.0,True,False,,Racer: Francisco Matos Gil in Race: Baltar in February 2023,40.0
+2024-02-02 20:08:30.291057,2024-02-02 20:08:30.295895,2,4,1,6,1.0,2,25.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Baltar in February 2023,26.0
+2024-02-02 20:08:30.328899,2024-02-02 20:08:30.333140,3,13,1,15,0.0,3,21.0,0.0,0.0,False,False,,Racer: Miguel Sousa Guedes in Race: Baltar in February 2023,21.0
+2024-02-02 20:08:30.367529,2024-02-02 20:08:30.373636,4,5,1,3,6.0,4,18.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: Baltar in February 2023,24.0
+2024-02-02 20:08:30.412977,2024-02-02 20:08:30.421969,5,8,1,5,2.0,5,16.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: Baltar in February 2023,18.0
+2024-02-02 20:08:30.466913,2024-02-02 20:08:30.475817,6,2,1,2,8.0,6,15.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Baltar in February 2023,23.0
+2024-02-02 20:08:30.507771,2024-02-02 20:08:30.512521,7,17,1,4,5.0,7,13.0,0.0,0.0,False,False,,Racer: Gonçalo Ramalho in Race: Baltar in February 2023,18.0
+2024-02-02 20:08:30.544073,2024-02-02 20:08:30.555432,8,12,1,13,0.0,8,12.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Baltar in February 2023,12.0
+2024-02-02 20:08:30.584318,2024-02-02 20:08:30.587332,9,16,1,16,0.0,9,11.0,0.0,0.0,False,False,,Racer: António Guimarães in Race: Baltar in February 2023,11.0
+2024-02-02 20:08:30.601708,2024-02-02 20:08:30.610860,10,18,1,11,0.0,10,10.0,0.0,0.0,False,False,,Racer: Meco Guedes in Race: Baltar in February 2023,10.0
+2024-02-02 20:08:30.636898,2024-02-02 20:08:30.640940,11,15,1,10,0.0,11,6.0,0.0,0.0,False,False,,Racer: José Pedro Raimundo in Race: Baltar in February 2023,6.0
+2024-02-02 20:08:30.710848,2024-02-02 20:08:30.730336,12,7,1,7,0.0,12,5.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Baltar in February 2023,5.0
+2024-02-02 20:08:30.790954,2024-02-02 20:08:30.797551,13,14,1,9,0.0,13,4.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Baltar in February 2023,4.0
+2024-02-02 20:08:30.827780,2024-02-02 20:08:30.834095,14,10,1,12,0.0,14,3.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Baltar in February 2023,3.0
+2024-02-02 20:08:30.850802,2024-02-02 20:08:30.861112,15,19,1,8,0.0,15,2.0,0.0,0.0,False,False,,Racer: Martinho Brito in Race: Baltar in February 2023,2.0
+2024-02-02 20:08:30.874622,2024-02-02 20:08:30.878334,16,20,1,14,0.0,16,1.0,0.0,0.0,False,False,,Racer: Manuel Bruschy in Race: Baltar in February 2023,1.0
+2024-02-02 20:08:30.902653,2024-02-02 20:08:30.909307,17,11,1,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Dias in Race: Baltar in February 2023,-1.0
+2024-02-02 20:08:30.915079,2024-02-02 20:08:30.919348,18,9,1,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Pedro Pacheco in Race: Baltar in February 2023,-1.0
+2024-02-02 20:08:30.924993,2024-02-02 20:08:30.931251,19,3,1,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Caeiro in Race: Baltar in February 2023,-1.0
+2024-02-02 20:08:30.935161,2024-02-02 20:08:30.945665,20,6,1,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Ferreira in Race: Baltar in February 2023,-1.0
+2024-02-03 09:30:27.497240,2024-02-03 09:30:27.506393,21,5,2,1,9.0,1,30.0,0.0,0.0,True,False,,Racer: Alexandre Campelo in Race: Fafe in March 2023,40.0
+2024-02-03 09:30:27.536838,2024-02-03 09:30:27.541714,22,11,2,6,1.0,2,25.0,0.0,0.0,False,False,,Racer: Luís Dias in Race: Fafe in March 2023,26.0
+2024-02-03 09:30:27.570223,2024-02-03 09:30:27.577463,23,3,2,3,6.0,3,21.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: Fafe in March 2023,27.0
+2024-02-03 09:30:27.612482,2024-02-03 09:30:27.616879,24,2,2,7,0.0,4,18.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Fafe in March 2023,18.0
+2024-02-03 09:30:27.635670,2024-02-03 09:30:27.642799,25,1,2,2,8.0,5,16.0,0.0,0.0,False,False,,Racer: Francisco Matos Gil in Race: Fafe in March 2023,24.0
+2024-02-03 09:30:27.661837,2024-02-03 09:30:27.668925,26,21,2,4,5.0,6,15.0,0.0,0.0,False,False,,Racer: André Costa in Race: Fafe in March 2023,20.0
+2024-02-03 09:30:27.692674,2024-02-03 09:30:27.697510,27,22,2,9,0.0,7,13.0,0.0,0.0,False,False,,Racer: Gui Azevedo in Race: Fafe in March 2023,13.0
+2024-02-03 09:30:27.726302,2024-02-03 09:30:27.730848,28,4,2,8,0.0,8,12.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Fafe in March 2023,12.0
+2024-02-03 09:30:27.759273,2024-02-03 09:30:27.768821,29,15,2,13,0.0,9,11.0,0.0,0.0,False,False,,Racer: José Pedro Raimundo in Race: Fafe in March 2023,11.0
+2024-02-03 09:30:27.805823,2024-02-03 09:30:27.809568,30,8,2,5,2.0,10,10.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: Fafe in March 2023,12.0
+2024-02-03 09:30:27.835094,2024-02-03 09:30:27.875698,31,14,2,12,0.0,11,6.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Fafe in March 2023,6.0
+2024-02-03 09:30:27.981241,2024-02-03 09:30:27.997682,32,9,2,11,0.0,12,5.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: Fafe in March 2023,5.0
+2024-02-03 09:30:28.034157,2024-02-03 09:30:28.051851,33,16,2,15,0.0,13,4.0,0.0,0.0,False,False,,Racer: António Guimarães in Race: Fafe in March 2023,4.0
+2024-02-03 09:30:28.087514,2024-02-03 09:30:28.095327,34,12,2,14,0.0,14,3.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Fafe in March 2023,3.0
+2024-02-03 09:30:28.161625,2024-02-03 09:30:28.201087,35,20,2,16,0.0,15,2.0,0.0,0.0,False,False,,Racer: Manuel Bruschy in Race: Fafe in March 2023,2.0
+2024-02-03 09:30:28.239596,2024-02-03 09:30:28.246818,36,23,2,10,0.0,16,1.0,0.0,0.0,False,False,,Racer: Pedro Pontes in Race: Fafe in March 2023,1.0
+2024-02-03 09:30:28.279214,2024-02-03 09:30:28.284756,37,10,2,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Freitas in Race: Fafe in March 2023,-1.0
+2024-02-03 09:30:28.290075,2024-02-03 09:30:28.297533,38,13,2,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: Fafe in March 2023,-1.0
+2024-02-03 09:30:28.302687,2024-02-03 09:30:28.311664,39,6,2,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Ferreira in Race: Fafe in March 2023,-1.0
+2024-02-03 09:30:28.321539,2024-02-03 09:30:28.347148,40,7,2,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Henrique Vilas in Race: Fafe in March 2023,-1.0
+2024-02-03 09:32:54.721083,2024-02-03 09:32:54.731017,41,2,3,3,6.0,1,30.0,0.0,0.0,True,False,,Racer: João Couceiro in Race: Braga in April 2023,37.0
+2024-02-03 09:32:54.772194,2024-02-03 09:32:54.805248,42,8,3,8,0.0,2,25.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: Braga in April 2023,25.0
+2024-02-03 09:32:54.843514,2024-02-03 09:32:54.850315,43,3,3,1,9.0,3,21.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: Braga in April 2023,30.0
+2024-02-03 09:32:54.888380,2024-02-03 09:32:54.896744,44,11,3,4,5.0,4,18.0,0.0,0.0,False,False,,Racer: Luís Dias in Race: Braga in April 2023,23.0
+2024-02-03 09:32:54.922441,2024-02-03 09:32:54.927014,45,1,3,2,8.0,5,16.0,0.0,0.0,False,False,,Racer: Francisco Matos Gil in Race: Braga in April 2023,24.0
+2024-02-03 09:32:54.948505,2024-02-03 09:32:54.958203,46,6,3,5,2.0,6,15.0,0.0,0.0,False,False,,Racer: Luís Ferreira in Race: Braga in April 2023,17.0
+2024-02-03 09:32:54.998692,2024-02-03 09:32:55.006029,47,4,3,6,1.0,7,13.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Braga in April 2023,14.0
+2024-02-03 09:32:55.042414,2024-02-03 09:32:55.047860,48,9,3,10,0.0,8,12.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: Braga in April 2023,12.0
+2024-02-03 09:32:55.062139,2024-02-03 09:32:55.073146,49,10,3,12,0.0,9,11.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Braga in April 2023,11.0
+2024-02-03 09:32:55.102676,2024-02-03 09:32:55.110247,50,13,3,7,0.0,10,10.0,0.0,0.0,False,False,,Racer: Miguel Sousa Guedes in Race: Braga in April 2023,10.0
+2024-02-03 09:32:55.151021,2024-02-03 09:32:55.170010,51,12,3,14,0.0,11,6.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Braga in April 2023,6.0
+2024-02-03 09:32:55.210036,2024-02-03 09:32:55.260376,52,24,3,13,0.0,12,5.0,0.0,0.0,False,False,,Racer: Gonçalo Semelhe in Race: Braga in April 2023,5.0
+2024-02-03 09:32:55.305241,2024-02-03 09:32:55.313385,53,14,3,9,0.0,13,4.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Braga in April 2023,4.0
+2024-02-03 09:32:55.336943,2024-02-03 09:32:55.340831,54,7,3,11,0.0,14,3.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Braga in April 2023,3.0
+2024-02-03 09:32:55.354937,2024-02-03 09:32:55.357177,55,25,3,15,0.0,15,2.0,0.0,0.0,False,False,,Racer: José Maria Garrett in Race: Braga in April 2023,2.0
+2024-02-03 09:32:55.366911,2024-02-03 09:32:55.368926,56,26,3,16,0.0,16,1.0,0.0,0.0,False,False,,Racer: Tomás Pacheco in Race: Braga in April 2023,1.0
+2024-02-03 09:32:55.381440,2024-02-03 09:32:55.384480,57,16,3,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: Braga in April 2023,-1.0
+2024-02-03 09:32:55.386966,2024-02-03 09:32:55.389435,58,5,3,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Alexandre Campelo in Race: Braga in April 2023,-1.0
+2024-02-03 09:32:55.392108,2024-02-03 09:32:55.394325,59,15,3,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: Braga in April 2023,-1.0
+2024-02-03 09:37:59.955984,2024-02-03 09:37:59.967934,60,3,4,0,0.0,1,30.0,0.0,0.0,True,False,,Racer: Miguel Caeiro in Race: Poiares in April 2024,31.0
+2024-02-03 09:37:59.994177,2024-02-03 09:38:00.012595,61,1,4,0,0.0,2,25.0,0.0,0.0,False,False,,Racer: Francisco Matos Gil in Race: Poiares in April 2024,25.0
+2024-02-03 09:38:00.033179,2024-02-03 09:38:00.039476,62,4,4,0,0.0,3,21.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Poiares in April 2024,21.0
+2024-02-03 09:38:00.057573,2024-02-03 09:38:00.064275,63,13,4,0,0.0,4,18.0,0.0,0.0,False,False,,Racer: Miguel Sousa Guedes in Race: Poiares in April 2024,18.0
+2024-02-03 09:38:00.089045,2024-02-03 09:38:00.098682,64,10,4,0,0.0,5,16.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Poiares in April 2024,16.0
+2024-02-03 09:38:00.118034,2024-02-03 09:38:00.126991,65,6,4,0,0.0,6,15.0,0.0,0.0,False,False,,Racer: Luís Ferreira in Race: Poiares in April 2024,15.0
+2024-02-03 09:38:00.153872,2024-02-03 09:38:00.165315,66,7,4,0,0.0,7,13.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Poiares in April 2024,13.0
+2024-02-03 09:38:00.192119,2024-02-03 09:38:00.209396,67,8,4,0,0.0,8,12.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: Poiares in April 2024,12.0
+2024-02-03 09:38:00.235972,2024-02-03 09:38:00.247223,68,27,4,0,0.0,9,11.0,0.0,0.0,False,False,,Racer: Frederico Batista in Race: Poiares in April 2024,11.0
+2024-02-03 09:38:00.272681,2024-02-03 09:38:00.283808,69,24,4,0,0.0,10,10.0,0.0,0.0,False,False,,Racer: Gonçalo Semelhe in Race: Poiares in April 2024,10.0
+2024-02-03 09:38:00.346904,2024-02-03 09:38:00.358017,70,16,4,0,0.0,11,6.0,0.0,0.0,False,False,,Racer: António Guimarães in Race: Poiares in April 2024,6.0
+2024-02-03 09:38:00.415155,2024-02-03 09:38:00.426113,71,2,4,0,0.0,12,5.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Poiares in April 2024,5.0
+2024-02-03 09:38:00.476369,2024-02-03 09:38:00.485786,72,12,4,0,0.0,13,4.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Poiares in April 2024,4.0
+2024-02-03 09:38:00.536828,2024-02-03 09:38:00.548094,73,28,4,0,0.0,14,3.0,0.0,0.0,False,False,,Racer: Afonso Menezes in Race: Poiares in April 2024,3.0
+2024-02-03 09:38:00.575971,2024-02-03 09:38:00.588878,74,29,4,0,0.0,15,2.0,0.0,0.0,False,False,,Racer: José Couceiro in Race: Poiares in April 2024,2.0
+2024-02-03 09:38:00.639896,2024-02-03 09:38:00.647908,75,5,4,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Alexandre Campelo in Race: Poiares in April 2024,-1.0
+2024-02-03 09:38:00.656914,2024-02-03 09:38:00.667972,76,9,4,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Pedro Pacheco in Race: Poiares in April 2024,-1.0
+2024-02-03 09:38:00.674234,2024-02-03 09:38:00.713095,77,11,4,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Dias in Race: Poiares in April 2024,-1.0
+2024-02-03 09:38:00.727022,2024-02-03 09:38:00.732954,78,14,4,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Tomás Marrana in Race: Poiares in April 2024,-1.0
+2024-02-03 09:38:00.739332,2024-02-03 09:38:00.745116,79,15,4,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: Poiares in April 2024,-1.0
+2024-02-03 09:39:18.021218,2024-02-03 09:45:28.726617,80,1,5,3,6.0,1,30.0,0.0,0.0,False,False,,Racer: Francisco Matos Gil in Race: Viana in August 2023,36.0
+2024-02-03 09:39:18.053921,2024-02-03 09:45:58.816776,81,6,5,5,2.0,2,25.0,0.0,0.0,False,False,,Racer: Luís Ferreira in Race: Viana in August 2023,27.0
+2024-02-03 09:39:18.087621,2024-02-03 09:46:15.652099,82,3,5,2,8.0,3,21.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: Viana in August 2023,29.0
+2024-02-03 09:39:18.146319,2024-02-03 09:46:34.875203,83,2,5,4,5.0,4,18.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Viana in August 2023,23.0
+2024-02-03 09:39:18.177137,2024-02-03 09:46:52.027235,84,5,5,1,9.0,5,16.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: Viana in August 2023,25.0
+2024-02-03 09:39:18.215478,2024-02-03 09:47:11.734098,85,4,5,6,1.0,6,15.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Viana in August 2023,16.0
+2024-02-03 09:39:18.267423,2024-02-03 09:39:18.282111,86,9,5,0,0.0,7,13.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: Viana in August 2023,13.0
+2024-02-03 09:39:18.345419,2024-02-03 09:39:18.354019,87,14,5,0,0.0,8,12.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Viana in August 2023,12.0
+2024-02-03 09:39:18.415730,2024-02-03 09:39:18.424210,88,10,5,0,0.0,9,11.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Viana in August 2023,11.0
+2024-02-03 09:39:18.486534,2024-02-03 09:39:18.502411,89,7,5,0,0.0,10,10.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Viana in August 2023,10.0
+2024-02-03 09:39:18.554463,2024-02-03 09:39:18.569354,90,11,5,0,0.0,11,6.0,0.0,0.0,False,False,,Racer: Luís Dias in Race: Viana in August 2023,6.0
+2024-02-03 09:39:18.610625,2024-02-03 09:39:18.636307,91,12,5,0,0.0,12,5.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Viana in August 2023,5.0
+2024-02-03 09:39:18.662258,2024-02-03 09:39:18.669206,92,20,5,0,0.0,13,4.0,0.0,0.0,False,False,,Racer: Manuel Bruschy in Race: Viana in August 2023,4.0
+2024-02-03 09:39:18.700245,2024-02-03 09:39:18.708315,93,30,5,0,0.0,14,3.0,0.0,0.0,False,False,,Racer: Tomás Duarte in Race: Viana in August 2023,3.0
+2024-02-03 09:39:18.745601,2024-02-03 09:39:18.764037,94,26,5,0,0.0,15,2.0,0.0,0.0,False,False,,Racer: Tomás Pacheco in Race: Viana in August 2023,2.0
+2024-02-03 09:39:18.810955,2024-02-03 09:39:18.841648,95,31,5,0,0.0,16,1.0,0.0,0.0,False,False,,Racer: Maria Campelo in Race: Viana in August 2023,1.0
+2024-02-03 09:39:18.906886,2024-02-03 09:39:18.914831,96,8,5,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Lima in Race: Viana in August 2023,-1.0
+2024-02-03 09:39:18.930858,2024-02-03 09:39:18.939764,97,16,5,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: Viana in August 2023,-1.0
+2024-02-03 09:39:18.943005,2024-02-03 09:39:18.958683,98,13,5,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: Viana in August 2023,-1.0
+2024-02-03 09:39:18.968097,2024-02-03 09:39:18.979973,99,15,5,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: Viana in August 2023,-1.0
+2024-02-03 09:40:32.918177,2024-02-03 09:47:40.300459,100,4,6,2,8.0,1,30.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Bombarral in September 2023,38.0
+2024-02-03 09:40:32.963114,2024-02-03 09:47:52.736588,101,5,6,2,8.0,2,25.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: Bombarral in September 2023,33.0
+2024-02-03 09:40:32.987335,2024-02-03 09:48:16.767072,102,2,6,3,6.0,3,21.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: Bombarral in September 2023,27.0
+2024-02-03 09:40:33.023417,2024-02-03 09:40:33.031805,103,15,6,0,0.0,4,18.0,0.0,0.0,False,False,,Racer: José Pedro Raimundo in Race: Bombarral in September 2023,18.0
+2024-02-03 09:40:33.053060,2024-02-03 09:48:36.265262,104,7,6,5,2.0,5,16.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Bombarral in September 2023,18.0
+2024-02-03 09:40:33.087903,2024-02-03 09:48:57.356525,105,14,6,6,1.0,6,15.0,0.0,0.0,False,False,,Racer: Tomás Marrana in Race: Bombarral in September 2023,16.0
+2024-02-03 09:40:33.113519,2024-02-03 09:40:33.118594,106,17,6,0,0.0,7,13.0,0.0,0.0,False,False,,Racer: Gonçalo Ramalho in Race: Bombarral in September 2023,13.0
+2024-02-03 09:40:33.137478,2024-02-03 09:40:33.143886,107,31,6,0,0.0,8,12.0,0.0,0.0,False,False,,Racer: Maria Campelo in Race: Bombarral in September 2023,12.0
+2024-02-03 09:40:33.159119,2024-02-03 09:40:33.162928,108,27,6,0,0.0,9,11.0,0.0,0.0,False,False,,Racer: Frederico Batista in Race: Bombarral in September 2023,11.0
+2024-02-03 09:40:33.178963,2024-02-03 09:40:33.186675,109,30,6,0,0.0,10,10.0,0.0,0.0,False,False,,Racer: Tomás Duarte in Race: Bombarral in September 2023,10.0
+2024-02-03 09:40:33.224766,2024-02-03 09:40:33.236885,110,28,6,0,0.0,11,6.0,0.0,0.0,False,False,,Racer: Afonso Menezes in Race: Bombarral in September 2023,6.0
+2024-02-03 09:40:33.276174,2024-02-03 09:40:33.282816,111,25,6,0,0.0,12,5.0,0.0,0.0,False,False,,Racer: José Maria Garrett in Race: Bombarral in September 2023,5.0
+2024-02-03 09:40:33.371480,2024-02-03 09:40:33.384608,112,1,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Matos Gil in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.396944,2024-02-03 09:40:33.408418,113,3,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Caeiro in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.442667,2024-02-03 09:40:33.475487,114,6,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Ferreira in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.493970,2024-02-03 09:40:33.512290,115,8,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Lima in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.537243,2024-02-03 09:40:33.558707,116,9,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Pedro Pacheco in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.568581,2024-02-03 09:40:33.580391,117,10,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Freitas in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.592610,2024-02-03 09:40:33.600622,118,11,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Dias in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.618700,2024-02-03 09:40:33.628211,119,12,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Gonçalo Garrett in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.644913,2024-02-03 09:40:33.656156,120,13,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:40:33.688088,2024-02-03 09:40:33.699458,121,16,6,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: Bombarral in September 2023,-1.0
+2024-02-03 09:42:29.930103,2024-02-03 09:42:29.938015,122,1,7,2,8.0,1,30.0,0.0,0.0,True,False,,Racer: Francisco Matos Gil in Race: V N Paiva in October 2023,39.0
+2024-02-03 09:42:29.971938,2024-02-03 09:42:29.984500,123,6,7,4,5.0,2,25.0,0.0,0.0,False,False,,Racer: Luís Ferreira in Race: V N Paiva in October 2023,30.0
+2024-02-03 09:42:30.016995,2024-02-03 09:42:30.029645,124,4,7,8,0.0,3,21.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: V N Paiva in October 2023,21.0
+2024-02-03 09:42:30.059031,2024-02-03 09:42:30.073838,125,2,7,10,0.0,4,18.0,0.0,0.0,False,False,,Racer: João Couceiro in Race: V N Paiva in October 2023,18.0
+2024-02-03 09:42:30.109645,2024-02-03 09:42:30.121231,126,9,7,5,2.0,5,16.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: V N Paiva in October 2023,18.0
+2024-02-03 09:42:30.164067,2024-02-03 09:42:30.172477,127,3,7,7,0.0,6,15.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: V N Paiva in October 2023,15.0
+2024-02-03 09:42:30.211121,2024-02-03 09:42:30.218087,128,11,7,12,0.0,7,13.0,0.0,0.0,False,False,,Racer: Luís Dias in Race: V N Paiva in October 2023,13.0
+2024-02-03 09:42:30.260320,2024-02-03 09:42:30.266399,129,8,7,6,1.0,8,12.0,0.0,0.0,False,False,,Racer: Francisco Lima in Race: V N Paiva in October 2023,13.0
+2024-02-03 09:42:30.300219,2024-02-03 09:42:30.306076,130,7,7,9,0.0,9,11.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: V N Paiva in October 2023,11.0
+2024-02-03 09:42:30.335016,2024-02-03 09:42:30.341288,131,10,7,11,0.0,10,10.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: V N Paiva in October 2023,10.0
+2024-02-03 09:42:30.367575,2024-02-03 09:42:30.388682,132,5,7,1,9.0,11,6.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: V N Paiva in October 2023,15.0
+2024-02-03 09:42:30.472072,2024-02-03 09:42:30.509574,133,12,7,13,0.0,12,5.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: V N Paiva in October 2023,5.0
+2024-02-03 09:42:30.569040,2024-02-03 09:42:30.584671,134,17,7,3,6.0,13,4.0,0.0,0.0,False,False,,Racer: Gonçalo Ramalho in Race: V N Paiva in October 2023,10.0
+2024-02-03 09:42:30.631329,2024-02-03 09:42:30.637907,135,16,7,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: V N Paiva in October 2023,-1.0
+2024-02-03 09:42:30.647227,2024-02-03 09:42:30.661300,136,13,7,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: V N Paiva in October 2023,-1.0
+2024-02-03 09:42:30.667091,2024-02-03 09:42:30.682878,137,14,7,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Tomás Marrana in Race: V N Paiva in October 2023,-1.0
+2024-02-03 09:42:30.700672,2024-02-03 09:42:30.712195,138,15,7,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: V N Paiva in October 2023,-1.0
+2024-02-03 09:44:19.733413,2024-02-03 09:44:19.743186,139,2,8,5,2.0,1,30.0,0.0,0.0,True,False,,Racer: João Couceiro in Race: Vila Real  in November 2023,33.0
+2024-02-03 09:44:19.783570,2024-02-03 09:44:19.795780,140,3,8,4,5.0,2,25.0,0.0,0.0,False,False,,Racer: Miguel Caeiro in Race: Vila Real  in November 2023,30.0
+2024-02-03 09:44:19.827877,2024-02-03 09:44:19.831802,141,9,8,6,1.0,3,21.0,0.0,0.0,False,False,,Racer: Pedro Pacheco in Race: Vila Real  in November 2023,22.0
+2024-02-03 09:44:19.853356,2024-02-03 09:44:19.857888,142,7,8,8,0.0,4,18.0,0.0,0.0,False,False,,Racer: Henrique Vilas in Race: Vila Real  in November 2023,18.0
+2024-02-03 09:44:19.883789,2024-02-03 09:44:19.890693,143,29,8,2,8.0,5,16.0,0.0,0.0,False,False,,Racer: José Couceiro in Race: Vila Real  in November 2023,24.0
+2024-02-03 09:44:19.911832,2024-02-03 09:44:19.916477,144,10,8,7,0.0,6,15.0,0.0,0.0,False,False,,Racer: Francisco Freitas in Race: Vila Real  in November 2023,15.0
+2024-02-03 09:44:19.939567,2024-02-03 09:44:19.969179,145,17,8,1,9.0,7,13.0,0.0,0.0,False,False,,Racer: Gonçalo Ramalho in Race: Vila Real  in November 2023,22.0
+2024-02-03 09:44:20.008159,2024-02-03 09:44:20.023852,146,4,8,9,0.0,8,12.0,0.0,0.0,False,False,,Racer: Dinis Brito e Faro in Race: Vila Real  in November 2023,12.0
+2024-02-03 09:44:20.050674,2024-02-03 09:44:20.056616,147,12,8,10,0.0,9,11.0,0.0,0.0,False,False,,Racer: Gonçalo Garrett in Race: Vila Real  in November 2023,11.0
+2024-02-03 09:44:20.081467,2024-02-03 09:44:20.093099,148,5,8,3,6.0,10,10.0,0.0,0.0,False,False,,Racer: Alexandre Campelo in Race: Vila Real  in November 2023,16.0
+2024-02-03 09:44:20.117461,2024-02-03 09:44:20.124817,149,31,8,11,0.0,11,6.0,0.0,0.0,False,False,,Racer: Maria Campelo in Race: Vila Real  in November 2023,6.0
+2024-02-03 09:44:20.184741,2024-02-03 09:44:20.199252,150,1,8,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Matos Gil in Race: Vila Real  in November 2023,-1.0
+2024-02-03 09:44:20.207307,2024-02-03 09:44:20.216867,151,6,8,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Ferreira in Race: Vila Real  in November 2023,-1.0
+2024-02-03 09:44:20.222212,2024-02-03 09:44:20.227485,152,8,8,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Francisco Lima in Race: Vila Real  in November 2023,-1.0
+2024-02-03 09:44:20.233409,2024-02-03 09:44:20.240862,153,11,8,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Luís Dias in Race: Vila Real  in November 2023,-1.0
+2024-02-03 09:44:20.246538,2024-02-03 09:44:20.257706,154,13,8,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Miguel Sousa Guedes in Race: Vila Real  in November 2023,-1.0
+2024-02-03 09:44:20.264634,2024-02-03 09:44:20.272616,155,14,8,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: Tomás Marrana in Race: Vila Real  in November 2023,-1.0
+2024-02-03 09:44:20.278707,2024-02-03 09:44:20.288606,156,15,8,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: José Pedro Raimundo in Race: Vila Real  in November 2023,-1.0
+2024-02-03 09:44:20.294584,2024-02-03 09:44:20.326394,157,16,8,0,0.0,0,0.0,1.0,0.0,False,False,Piloto recebeu castigo de 1.0 pontos porque faltou à corrida,Racer: António Guimarães in Race: Vila Real  in November 2023,-1.0

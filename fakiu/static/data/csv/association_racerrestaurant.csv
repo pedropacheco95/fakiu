@@ -1,116 +1,116 @@
 creation_datetime,last_change_datetime,id,racer_id,restaurant_id,name
-2024-02-01 11:35:49.273410,2024-02-01 11:35:49.273421,1,1,2,Racer: Francisco Matos Gil in Restaurant: Restaurante Baltar
-2024-02-01 11:35:49.436953,2024-02-01 11:35:49.436977,2,4,2,Racer: Dinis Brito e Faro in Restaurant: Restaurante Baltar
-2024-02-01 11:35:49.562018,2024-02-01 11:35:49.562042,3,13,2,Racer: Miguel Sousa Guedes in Restaurant: Restaurante Baltar
-2024-02-01 11:35:49.700442,2024-02-01 11:35:49.700449,4,5,2,Racer: Alexandre Campelo in Restaurant: Restaurante Baltar
-2024-02-01 11:35:49.823327,2024-02-01 11:35:49.823336,5,8,2,Racer: Francisco Lima in Restaurant: Restaurante Baltar
-2024-02-01 11:35:49.881648,2024-02-01 11:35:49.881654,6,2,2,Racer: João Couceiro in Restaurant: Restaurante Baltar
-2024-02-01 11:35:49.971358,2024-02-01 11:35:49.971362,7,17,2,Racer: Gonçalo Ramalho in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.040313,2024-02-01 11:35:50.040320,8,12,2,Racer: Gonçalo Garrett in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.132069,2024-02-01 11:35:50.132092,9,16,2,Racer: António Guimarães in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.276748,2024-02-01 11:35:50.276755,10,18,2,Racer: Meco Guedes in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.408998,2024-02-01 11:35:50.409007,11,15,2,Racer: José Pedro Raimundo in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.520551,2024-02-01 11:35:50.520560,12,7,2,Racer: Henrique Vilas in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.557404,2024-02-01 11:35:50.557413,13,14,2,Racer: Tomás Marrana in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.582405,2024-02-01 11:35:50.582412,14,10,2,Racer: Francisco Freitas in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.611623,2024-02-01 11:35:50.611628,15,19,2,Racer: Martinho Brito in Restaurant: Restaurante Baltar
-2024-02-01 11:35:50.644165,2024-02-01 11:35:50.644169,16,20,2,Racer: Manuel Bruschy in Restaurant: Restaurante Baltar
-2024-02-01 11:41:07.938429,2024-02-01 11:41:07.938440,17,5,3,Racer: Alexandre Campelo in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.019404,2024-02-01 11:41:08.019414,18,11,3,Racer: Luís Dias in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.113353,2024-02-01 11:41:08.113360,19,3,3,Racer: Miguel Caeiro in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.228132,2024-02-01 11:41:08.228139,20,2,3,Racer: João Couceiro in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.338447,2024-02-01 11:41:08.338466,21,1,3,Racer: Francisco Matos Gil in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.416462,2024-02-01 11:41:08.416472,22,21,3,Racer: André Costa in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.490215,2024-02-01 11:41:08.490221,23,22,3,Racer: Gui Azevedo in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.567828,2024-02-01 11:41:08.567837,24,4,3,Racer: Dinis Brito e Faro in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.672362,2024-02-01 11:41:08.672370,25,15,3,Racer: José Pedro Raimundo in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.842187,2024-02-01 11:41:08.842197,26,8,3,Racer: Francisco Lima in Restaurant: Restaurante Fafe
-2024-02-01 11:41:08.932967,2024-02-01 11:41:08.932973,27,14,3,Racer: Tomás Marrana in Restaurant: Restaurante Fafe
-2024-02-01 11:41:09.008906,2024-02-01 11:41:09.008924,28,9,3,Racer: Pedro Pacheco in Restaurant: Restaurante Fafe
-2024-02-01 11:41:09.075885,2024-02-01 11:41:09.075895,29,16,3,Racer: António Guimarães in Restaurant: Restaurante Fafe
-2024-02-01 11:41:09.206578,2024-02-01 11:41:09.206586,30,12,3,Racer: Gonçalo Garrett in Restaurant: Restaurante Fafe
-2024-02-01 11:41:09.276072,2024-02-01 11:41:09.276077,31,20,3,Racer: Manuel Bruschy in Restaurant: Restaurante Fafe
-2024-02-01 11:41:09.298963,2024-02-01 11:41:09.298967,32,23,3,Racer: Pedro Pontes in Restaurant: Restaurante Fafe
-2024-02-01 11:44:43.995136,2024-02-01 11:44:43.995143,33,2,4,Racer: João Couceiro in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.112817,2024-02-01 11:44:44.112827,34,8,4,Racer: Francisco Lima in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.155279,2024-02-01 11:44:44.155284,35,3,4,Racer: Miguel Caeiro in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.199230,2024-02-01 11:44:44.199237,36,11,4,Racer: Luís Dias in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.276008,2024-02-01 11:44:44.276013,37,1,4,Racer: Francisco Matos Gil in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.367366,2024-02-01 11:44:44.367375,38,6,4,Racer: Luís Ferreira in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.439897,2024-02-01 11:44:44.439902,39,4,4,Racer: Dinis Brito e Faro in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.484514,2024-02-01 11:44:44.484522,40,9,4,Racer: Pedro Pacheco in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.550028,2024-02-01 11:44:44.550035,41,10,4,Racer: Francisco Freitas in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.608635,2024-02-01 11:44:44.608640,42,13,4,Racer: Miguel Sousa Guedes in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.672220,2024-02-01 11:44:44.672227,43,12,4,Racer: Gonçalo Garrett in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.724264,2024-02-01 11:44:44.724274,44,24,4,Racer: Gonçalo Semelhe in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.824890,2024-02-01 11:44:44.824895,45,14,4,Racer: Tomás Marrana in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.882606,2024-02-01 11:44:44.882610,46,7,4,Racer: Henrique Vilas in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.916918,2024-02-01 11:44:44.916925,47,25,4,Racer: José Maria Garrett in Restaurant: Restaurante Braga
-2024-02-01 11:44:44.969669,2024-02-01 11:44:44.969676,48,26,4,Racer: Tomás Pacheco in Restaurant: Restaurante Braga
-2024-02-01 11:48:26.455740,2024-02-01 11:48:26.455745,49,3,5,Racer: Miguel Caeiro in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.485823,2024-02-01 11:48:26.485828,50,1,5,Racer: Francisco Matos Gil in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.507831,2024-02-01 11:48:26.507836,51,4,5,Racer: Dinis Brito e Faro in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.528821,2024-02-01 11:48:26.528825,52,13,5,Racer: Miguel Sousa Guedes in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.554375,2024-02-01 11:48:26.554378,53,10,5,Racer: Francisco Freitas in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.573677,2024-02-01 11:48:26.573680,54,6,5,Racer: Luís Ferreira in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.589985,2024-02-01 11:48:26.589989,55,7,5,Racer: Henrique Vilas in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.636124,2024-02-01 11:48:26.636134,56,8,5,Racer: Francisco Lima in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.747482,2024-02-01 11:48:26.747498,57,27,5,Racer: Frederico Batista in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.873252,2024-02-01 11:48:26.873259,58,24,5,Racer: Gonçalo Semelhe in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.937641,2024-02-01 11:48:26.937658,59,16,5,Racer: António Guimarães in Restaurant: Restaurante Poiares
-2024-02-01 11:48:26.975550,2024-02-01 11:48:26.975557,60,2,5,Racer: João Couceiro in Restaurant: Restaurante Poiares
-2024-02-01 11:48:27.029001,2024-02-01 11:48:27.029014,61,12,5,Racer: Gonçalo Garrett in Restaurant: Restaurante Poiares
-2024-02-01 11:48:27.132740,2024-02-01 11:48:27.132802,62,28,5,Racer: Afonso Menezes in Restaurant: Restaurante Poiares
-2024-02-01 11:48:27.216563,2024-02-01 11:48:27.216572,63,29,5,Racer: José Couceiro in Restaurant: Restaurante Poiares
-2024-02-01 11:53:42.856704,2024-02-01 11:53:42.856714,64,1,6,Racer: Francisco Matos Gil in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:42.928248,2024-02-01 11:53:42.928260,65,6,6,Racer: Luís Ferreira in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:42.975605,2024-02-01 11:53:42.975612,66,3,6,Racer: Miguel Caeiro in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.076133,2024-02-01 11:53:43.076150,67,2,6,Racer: João Couceiro in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.159421,2024-02-01 11:53:43.159426,68,5,6,Racer: Alexandre Campelo in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.236375,2024-02-01 11:53:43.236385,69,4,6,Racer: Dinis Brito e Faro in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.304886,2024-02-01 11:53:43.304895,70,9,6,Racer: Pedro Pacheco in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.365629,2024-02-01 11:53:43.365635,71,14,6,Racer: Tomás Marrana in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.405680,2024-02-01 11:53:43.405691,72,10,6,Racer: Francisco Freitas in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.457662,2024-02-01 11:53:43.457672,73,7,6,Racer: Henrique Vilas in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.523865,2024-02-01 11:53:43.523875,74,11,6,Racer: Luís Dias in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.568708,2024-02-01 11:53:43.568723,75,12,6,Racer: Gonçalo Garrett in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.649065,2024-02-01 11:53:43.649080,76,20,6,Racer: Manuel Bruschy in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.688650,2024-02-01 11:53:43.688655,77,30,6,Racer: Tomás Duarte in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.741297,2024-02-01 11:53:43.741302,78,26,6,Racer: Tomás Pacheco in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:53:43.816946,2024-02-01 11:53:43.816954,79,31,6,Racer: Maria Campelo in Restaurant: Restaurante Viana do Castelo
-2024-02-01 11:57:44.475533,2024-02-01 11:57:44.475539,80,4,7,Racer: Dinis Brito e Faro in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.502295,2024-02-01 11:57:44.502300,81,5,7,Racer: Alexandre Campelo in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.519470,2024-02-01 11:57:44.519474,82,2,7,Racer: João Couceiro in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.542583,2024-02-01 11:57:44.542586,83,15,7,Racer: José Pedro Raimundo in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.556498,2024-02-01 11:57:44.556501,84,7,7,Racer: Henrique Vilas in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.573920,2024-02-01 11:57:44.573924,85,14,7,Racer: Tomás Marrana in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.587771,2024-02-01 11:57:44.587774,86,17,7,Racer: Gonçalo Ramalho in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.602189,2024-02-01 11:57:44.602191,87,31,7,Racer: Maria Campelo in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.614599,2024-02-01 11:57:44.614602,88,27,7,Racer: Frederico Batista in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.630751,2024-02-01 11:57:44.630754,89,30,7,Racer: Tomás Duarte in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.642569,2024-02-01 11:57:44.642571,90,28,7,Racer: Afonso Menezes in Restaurant: Restaurante Bombarral
-2024-02-01 11:57:44.656311,2024-02-01 11:57:44.656314,91,25,7,Racer: José Maria Garrett in Restaurant: Restaurante Bombarral
-2024-02-01 13:43:34.307913,2024-02-01 13:43:34.307923,92,1,8,Racer: Francisco Matos Gil in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:34.419576,2024-02-01 13:43:34.419590,93,6,8,Racer: Luís Ferreira in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:34.530412,2024-02-01 13:43:34.530424,94,4,8,Racer: Dinis Brito e Faro in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:34.607427,2024-02-01 13:43:34.607434,95,2,8,Racer: João Couceiro in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:34.689920,2024-02-01 13:43:34.689927,96,9,8,Racer: Pedro Pacheco in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:34.815460,2024-02-01 13:43:34.815471,97,3,8,Racer: Miguel Caeiro in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:34.900765,2024-02-01 13:43:34.900781,98,11,8,Racer: Luís Dias in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:34.950046,2024-02-01 13:43:34.950055,99,8,8,Racer: Francisco Lima in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:35.009187,2024-02-01 13:43:35.009197,100,7,8,Racer: Henrique Vilas in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:35.147593,2024-02-01 13:43:35.147611,101,10,8,Racer: Francisco Freitas in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:35.225133,2024-02-01 13:43:35.225143,102,5,8,Racer: Alexandre Campelo in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:35.270042,2024-02-01 13:43:35.270048,103,12,8,Racer: Gonçalo Garrett in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:43:35.398773,2024-02-01 13:43:35.398788,104,17,8,Racer: Gonçalo Ramalho in Restaurant: Restaurante Vila Nova de Paiva
-2024-02-01 13:46:02.729120,2024-02-01 13:46:02.729124,105,2,1,Racer: João Couceiro in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:02.782412,2024-02-01 13:46:02.782421,106,3,1,Racer: Miguel Caeiro in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:02.823491,2024-02-01 13:46:02.823497,107,9,1,Racer: Pedro Pacheco in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:02.865806,2024-02-01 13:46:02.865813,108,7,1,Racer: Henrique Vilas in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:03.010743,2024-02-01 13:46:03.010750,109,29,1,Racer: José Couceiro in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:03.078109,2024-02-01 13:46:03.078117,110,10,1,Racer: Francisco Freitas in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:03.153828,2024-02-01 13:46:03.153834,111,17,1,Racer: Gonçalo Ramalho in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:03.209769,2024-02-01 13:46:03.209774,112,4,1,Racer: Dinis Brito e Faro in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:03.307822,2024-02-01 13:46:03.307847,113,12,1,Racer: Gonçalo Garrett in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:03.445196,2024-02-01 13:46:03.445208,114,5,1,Racer: Alexandre Campelo in Restaurant: Restaurante Vila Real
-2024-02-01 13:46:03.536407,2024-02-01 13:46:03.536418,115,31,1,Racer: Maria Campelo in Restaurant: Restaurante Vila Real
+2024-02-02 20:08:30.282432,2024-02-02 20:08:30.282436,1,1,2,Racer: Francisco Matos Gil in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.316913,2024-02-02 20:08:30.316915,2,4,2,Racer: Dinis Brito e Faro in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.360916,2024-02-02 20:08:30.360948,3,13,2,Racer: Miguel Sousa Guedes in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.407653,2024-02-02 20:08:30.407658,4,5,2,Racer: Alexandre Campelo in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.447855,2024-02-02 20:08:30.447861,5,8,2,Racer: Francisco Lima in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.498459,2024-02-02 20:08:30.498463,6,2,2,Racer: João Couceiro in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.531330,2024-02-02 20:08:30.531334,7,17,2,Racer: Gonçalo Ramalho in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.580842,2024-02-02 20:08:30.580845,8,12,2,Racer: Gonçalo Garrett in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.596847,2024-02-02 20:08:30.596850,9,16,2,Racer: António Guimarães in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.631589,2024-02-02 20:08:30.631591,10,18,2,Racer: Meco Guedes in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.655894,2024-02-02 20:08:30.655899,11,15,2,Racer: José Pedro Raimundo in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.783299,2024-02-02 20:08:30.783310,12,7,2,Racer: Henrique Vilas in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.821607,2024-02-02 20:08:30.821610,13,14,2,Racer: Tomás Marrana in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.847224,2024-02-02 20:08:30.847228,14,10,2,Racer: Francisco Freitas in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.870053,2024-02-02 20:08:30.870058,15,19,2,Racer: Martinho Brito in Restaurant: Restaurante Baltar
+2024-02-02 20:08:30.890316,2024-02-02 20:08:30.890322,16,20,2,Racer: Manuel Bruschy in Restaurant: Restaurante Baltar
+2024-02-03 09:30:27.528900,2024-02-03 09:30:27.528904,17,5,3,Racer: Alexandre Campelo in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.566360,2024-02-03 09:30:27.566364,18,11,3,Racer: Luís Dias in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.601131,2024-02-03 09:30:27.601135,19,3,3,Racer: Miguel Caeiro in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.628124,2024-02-03 09:30:27.628127,20,2,3,Racer: João Couceiro in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.652324,2024-02-03 09:30:27.652330,21,1,3,Racer: Francisco Matos Gil in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.688114,2024-02-03 09:30:27.688118,22,21,3,Racer: André Costa in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.711839,2024-02-03 09:30:27.711842,23,22,3,Racer: Gui Azevedo in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.751091,2024-02-03 09:30:27.751100,24,4,3,Racer: Dinis Brito e Faro in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.799790,2024-02-03 09:30:27.799796,25,15,3,Racer: José Pedro Raimundo in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.829618,2024-02-03 09:30:27.829622,26,8,3,Racer: Francisco Lima in Restaurant: Restaurante Fafe
+2024-02-03 09:30:27.921357,2024-02-03 09:30:27.921364,27,14,3,Racer: Tomás Marrana in Restaurant: Restaurante Fafe
+2024-02-03 09:30:28.026218,2024-02-03 09:30:28.026224,28,9,3,Racer: Pedro Pacheco in Restaurant: Restaurante Fafe
+2024-02-03 09:30:28.078011,2024-02-03 09:30:28.078026,29,16,3,Racer: António Guimarães in Restaurant: Restaurante Fafe
+2024-02-03 09:30:28.145169,2024-02-03 09:30:28.145175,30,12,3,Racer: Gonçalo Garrett in Restaurant: Restaurante Fafe
+2024-02-03 09:30:28.231117,2024-02-03 09:30:28.231124,31,20,3,Racer: Manuel Bruschy in Restaurant: Restaurante Fafe
+2024-02-03 09:30:28.262305,2024-02-03 09:30:28.262311,32,23,3,Racer: Pedro Pontes in Restaurant: Restaurante Fafe
+2024-02-03 09:32:54.760410,2024-02-03 09:32:54.760414,33,2,4,Racer: João Couceiro in Restaurant: Restaurante Braga
+2024-02-03 09:32:54.827994,2024-02-03 09:32:54.828003,34,8,4,Racer: Francisco Lima in Restaurant: Restaurante Braga
+2024-02-03 09:32:54.880957,2024-02-03 09:32:54.880967,35,3,4,Racer: Miguel Caeiro in Restaurant: Restaurante Braga
+2024-02-03 09:32:54.916295,2024-02-03 09:32:54.916298,36,11,4,Racer: Luís Dias in Restaurant: Restaurante Braga
+2024-02-03 09:32:54.943871,2024-02-03 09:32:54.943875,37,1,4,Racer: Francisco Matos Gil in Restaurant: Restaurante Braga
+2024-02-03 09:32:54.988608,2024-02-03 09:32:54.988612,38,6,4,Racer: Luís Ferreira in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.031218,2024-02-03 09:32:55.031222,39,4,4,Racer: Dinis Brito e Faro in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.057106,2024-02-03 09:32:55.057109,40,9,4,Racer: Pedro Pacheco in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.097668,2024-02-03 09:32:55.097679,41,10,4,Racer: Francisco Freitas in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.142641,2024-02-03 09:32:55.142651,42,13,4,Racer: Miguel Sousa Guedes in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.202581,2024-02-03 09:32:55.202590,43,12,4,Racer: Gonçalo Garrett in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.298004,2024-02-03 09:32:55.298012,44,24,4,Racer: Gonçalo Semelhe in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.324409,2024-02-03 09:32:55.324411,45,14,4,Racer: Tomás Marrana in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.352062,2024-02-03 09:32:55.352065,46,7,4,Racer: Henrique Vilas in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.363757,2024-02-03 09:32:55.363761,47,25,4,Racer: José Maria Garrett in Restaurant: Restaurante Braga
+2024-02-03 09:32:55.374430,2024-02-03 09:32:55.374432,48,26,4,Racer: Tomás Pacheco in Restaurant: Restaurante Braga
+2024-02-03 09:37:59.989278,2024-02-03 09:37:59.989283,49,3,5,Racer: Miguel Caeiro in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.027943,2024-02-03 09:38:00.027948,50,1,5,Racer: Francisco Matos Gil in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.051375,2024-02-03 09:38:00.051380,51,4,5,Racer: Dinis Brito e Faro in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.083615,2024-02-03 09:38:00.083619,52,13,5,Racer: Miguel Sousa Guedes in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.111680,2024-02-03 09:38:00.111685,53,10,5,Racer: Francisco Freitas in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.147409,2024-02-03 09:38:00.147414,54,6,5,Racer: Luís Ferreira in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.185871,2024-02-03 09:38:00.185878,55,7,5,Racer: Henrique Vilas in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.230091,2024-02-03 09:38:00.230097,56,8,5,Racer: Francisco Lima in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.266613,2024-02-03 09:38:00.266621,57,27,5,Racer: Frederico Batista in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.337728,2024-02-03 09:38:00.337736,58,24,5,Racer: Gonçalo Semelhe in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.380400,2024-02-03 09:38:00.380406,59,16,5,Racer: António Guimarães in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.458412,2024-02-03 09:38:00.458426,60,2,5,Racer: João Couceiro in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.525356,2024-02-03 09:38:00.525377,61,12,5,Racer: Gonçalo Garrett in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.569029,2024-02-03 09:38:00.569035,62,28,5,Racer: Afonso Menezes in Restaurant: Restaurante Poiares
+2024-02-03 09:38:00.608599,2024-02-03 09:38:00.608605,63,29,5,Racer: José Couceiro in Restaurant: Restaurante Poiares
+2024-02-03 09:39:18.049360,2024-02-03 09:39:18.049364,64,1,6,Racer: Francisco Matos Gil in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.081827,2024-02-03 09:39:18.081835,65,6,6,Racer: Luís Ferreira in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.139842,2024-02-03 09:39:18.139854,66,3,6,Racer: Miguel Caeiro in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.171166,2024-02-03 09:39:18.171171,67,2,6,Racer: João Couceiro in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.204256,2024-02-03 09:39:18.204264,68,5,6,Racer: Alexandre Campelo in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.252636,2024-02-03 09:39:18.252644,69,4,6,Racer: Dinis Brito e Faro in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.325822,2024-02-03 09:39:18.325833,70,9,6,Racer: Pedro Pacheco in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.404517,2024-02-03 09:39:18.404524,71,14,6,Racer: Tomás Marrana in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.461123,2024-02-03 09:39:18.461128,72,10,6,Racer: Francisco Freitas in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.538411,2024-02-03 09:39:18.538427,73,7,6,Racer: Henrique Vilas in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.589427,2024-02-03 09:39:18.589437,74,11,6,Racer: Luís Dias in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.651704,2024-02-03 09:39:18.651710,75,12,6,Racer: Gonçalo Garrett in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.690903,2024-02-03 09:39:18.690909,76,20,6,Racer: Manuel Bruschy in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.735066,2024-02-03 09:39:18.735072,77,30,6,Racer: Tomás Duarte in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.801114,2024-02-03 09:39:18.801124,78,26,6,Racer: Tomás Pacheco in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:39:18.870492,2024-02-03 09:39:18.870505,79,31,6,Racer: Maria Campelo in Restaurant: Restaurante Viana do Castelo
+2024-02-03 09:40:32.956194,2024-02-03 09:40:32.956203,80,4,7,Racer: Dinis Brito e Faro in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:32.979511,2024-02-03 09:40:32.979519,81,5,7,Racer: Alexandre Campelo in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.011934,2024-02-03 09:40:33.012047,82,2,7,Racer: João Couceiro in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.048408,2024-02-03 09:40:33.048411,83,15,7,Racer: José Pedro Raimundo in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.080055,2024-02-03 09:40:33.080063,84,7,7,Racer: Henrique Vilas in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.109687,2024-02-03 09:40:33.109689,85,14,7,Racer: Tomás Marrana in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.133164,2024-02-03 09:40:33.133168,86,17,7,Racer: Gonçalo Ramalho in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.153772,2024-02-03 09:40:33.153780,87,31,7,Racer: Maria Campelo in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.174607,2024-02-03 09:40:33.174611,88,27,7,Racer: Frederico Batista in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.213182,2024-02-03 09:40:33.213190,89,30,7,Racer: Tomás Duarte in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.267473,2024-02-03 09:40:33.267479,90,28,7,Racer: Afonso Menezes in Restaurant: Restaurante Bombarral
+2024-02-03 09:40:33.326820,2024-02-03 09:40:33.326834,91,25,7,Racer: José Maria Garrett in Restaurant: Restaurante Bombarral
+2024-02-03 09:42:29.961537,2024-02-03 09:42:29.961552,92,1,8,Racer: Francisco Matos Gil in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.009943,2024-02-03 09:42:30.009949,93,6,8,Racer: Luís Ferreira in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.052439,2024-02-03 09:42:30.052445,94,4,8,Racer: Dinis Brito e Faro in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.094061,2024-02-03 09:42:30.094066,95,2,8,Racer: João Couceiro in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.153896,2024-02-03 09:42:30.153911,96,9,8,Racer: Pedro Pacheco in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.204562,2024-02-03 09:42:30.204572,97,3,8,Racer: Miguel Caeiro in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.247741,2024-02-03 09:42:30.247750,98,11,8,Racer: Luís Dias in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.289641,2024-02-03 09:42:30.289648,99,8,8,Racer: Francisco Lima in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.325187,2024-02-03 09:42:30.325194,100,7,8,Racer: Henrique Vilas in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.357637,2024-02-03 09:42:30.357643,101,10,8,Racer: Francisco Freitas in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.426615,2024-02-03 09:42:30.426629,102,5,8,Racer: Alexandre Campelo in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.553451,2024-02-03 09:42:30.553457,103,12,8,Racer: Gonçalo Garrett in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:42:30.613707,2024-02-03 09:42:30.613716,104,17,8,Racer: Gonçalo Ramalho in Restaurant: Restaurante Vila Nova de Paiva
+2024-02-03 09:44:19.770359,2024-02-03 09:44:19.770371,105,2,1,Racer: João Couceiro in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:19.821782,2024-02-03 09:44:19.821794,106,3,1,Racer: Miguel Caeiro in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:19.848014,2024-02-03 09:44:19.848018,107,9,1,Racer: Pedro Pacheco in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:19.874632,2024-02-03 09:44:19.874636,108,7,1,Racer: Henrique Vilas in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:19.903898,2024-02-03 09:44:19.903907,109,29,1,Racer: José Couceiro in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:19.931121,2024-02-03 09:44:19.931130,110,10,1,Racer: Francisco Freitas in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:19.998366,2024-02-03 09:44:19.998375,111,17,1,Racer: Gonçalo Ramalho in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:20.043947,2024-02-03 09:44:20.043955,112,4,1,Racer: Dinis Brito e Faro in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:20.074338,2024-02-03 09:44:20.074343,113,12,1,Racer: Gonçalo Garrett in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:20.109921,2024-02-03 09:44:20.109928,114,5,1,Racer: Alexandre Campelo in Restaurant: Restaurante Vila Real
+2024-02-03 09:44:20.141986,2024-02-03 09:44:20.141992,115,31,1,Racer: Maria Campelo in Restaurant: Restaurante Vila Real

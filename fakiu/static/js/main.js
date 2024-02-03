@@ -360,6 +360,23 @@ function activateAndDeactiveOther(ele,class_name){
     carousel.style.transform = `translateX(${offset}px)`;
 }
 
+function customGetJSON(url, callback) {
+  
+    fetch(url)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        return response.json();
+      })
+      .then(data => {
+        if (callback && typeof callback === 'function') {
+          callback(data);
+        }
+      })
+      .catch(error => console.error('There was a problem with the fetch operation:', error));
+}
+
 function createCountdown() {
     const countdownElements = document.querySelectorAll('.countdown-timer');
 
