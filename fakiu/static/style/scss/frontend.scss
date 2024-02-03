@@ -103,9 +103,14 @@
             width: 100%;
 
             .team-kart-picture-container{
-                height: 3rem;
-                img{
-                    height: 100%;
+                @include size-query(large) {
+                    height: 3rem;
+                    img{
+                        height: 100%;
+                    }
+                }
+                @include size-query(small) {
+                    display: none;
                 }
             }
 
@@ -237,7 +242,13 @@
         }
 
         .podium-team-rank-container.first-place{
-            height: 18rem;
+            @include size-query(small) {
+                height: 20rem;
+                margin-bottom: 1rem;
+            }
+            @include size-query(large) {
+                height: 18rem;
+            }
         }
 
         .podium-team-rank-container.second-place{
