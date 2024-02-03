@@ -21,7 +21,7 @@ class Racer(db.Model ,model.Model, model.Base):
     height = Column(Float,default=1.80)
     weight = Column(Float,default=75)
 
-    picture = Column(String(255))
+    picture = Column(String(255),default='Racer/default_racer.png')
     winner_picture = Column(String(255))
     serious_picture = Column(String(255))
     kart_picture = Column(String(255))

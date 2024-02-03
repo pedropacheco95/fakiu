@@ -1,116 +1,116 @@
 creation_datetime,last_change_datetime,id,racer_id,track_id,name
-2024-02-01 11:35:49.198382,2024-02-01 11:35:49.198390,1,1,2,Racer: Francisco Matos Gil in Track: Baltar
-2024-02-01 11:35:49.390326,2024-02-01 11:35:49.390345,2,4,2,Racer: Dinis Brito e Faro in Track: Baltar
-2024-02-01 11:35:49.516641,2024-02-01 11:35:49.516713,3,13,2,Racer: Miguel Sousa Guedes in Track: Baltar
-2024-02-01 11:35:49.688994,2024-02-01 11:35:49.689005,4,5,2,Racer: Alexandre Campelo in Track: Baltar
-2024-02-01 11:35:49.797069,2024-02-01 11:35:49.797078,5,8,2,Racer: Francisco Lima in Track: Baltar
-2024-02-01 11:35:49.869780,2024-02-01 11:35:49.869787,6,2,2,Racer: João Couceiro in Track: Baltar
-2024-02-01 11:35:49.962693,2024-02-01 11:35:49.962699,7,17,2,Racer: Gonçalo Ramalho in Track: Baltar
-2024-02-01 11:35:50.027447,2024-02-01 11:35:50.027456,8,12,2,Racer: Gonçalo Garrett in Track: Baltar
-2024-02-01 11:35:50.101032,2024-02-01 11:35:50.101039,9,16,2,Racer: António Guimarães in Track: Baltar
-2024-02-01 11:35:50.251995,2024-02-01 11:35:50.252003,10,18,2,Racer: Meco Guedes in Track: Baltar
-2024-02-01 11:35:50.399399,2024-02-01 11:35:50.399406,11,15,2,Racer: José Pedro Raimundo in Track: Baltar
-2024-02-01 11:35:50.491398,2024-02-01 11:35:50.491418,12,7,2,Racer: Henrique Vilas in Track: Baltar
-2024-02-01 11:35:50.548221,2024-02-01 11:35:50.548229,13,14,2,Racer: Tomás Marrana in Track: Baltar
-2024-02-01 11:35:50.571472,2024-02-01 11:35:50.571475,14,10,2,Racer: Francisco Freitas in Track: Baltar
-2024-02-01 11:35:50.598698,2024-02-01 11:35:50.598706,15,19,2,Racer: Martinho Brito in Track: Baltar
-2024-02-01 11:35:50.634302,2024-02-01 11:35:50.634306,16,20,2,Racer: Manuel Bruschy in Track: Baltar
-2024-02-01 11:41:07.915033,2024-02-01 11:41:07.915040,17,5,3,Racer: Alexandre Campelo in Track: Fafe
-2024-02-01 11:41:07.994736,2024-02-01 11:41:07.994742,18,11,3,Racer: Luís Dias in Track: Fafe
-2024-02-01 11:41:08.073231,2024-02-01 11:41:08.073240,19,3,3,Racer: Miguel Caeiro in Track: Fafe
-2024-02-01 11:41:08.211675,2024-02-01 11:41:08.211684,20,2,3,Racer: João Couceiro in Track: Fafe
-2024-02-01 11:41:08.311399,2024-02-01 11:41:08.311425,21,1,3,Racer: Francisco Matos Gil in Track: Fafe
-2024-02-01 11:41:08.396294,2024-02-01 11:41:08.396304,22,21,3,Racer: André Costa in Track: Fafe
-2024-02-01 11:41:08.480058,2024-02-01 11:41:08.480067,23,22,3,Racer: Gui Azevedo in Track: Fafe
-2024-02-01 11:41:08.538955,2024-02-01 11:41:08.538973,24,4,3,Racer: Dinis Brito e Faro in Track: Fafe
-2024-02-01 11:41:08.657075,2024-02-01 11:41:08.657083,25,15,3,Racer: José Pedro Raimundo in Track: Fafe
-2024-02-01 11:41:08.801560,2024-02-01 11:41:08.801576,26,8,3,Racer: Francisco Lima in Track: Fafe
-2024-02-01 11:41:08.921870,2024-02-01 11:41:08.921880,27,14,3,Racer: Tomás Marrana in Track: Fafe
-2024-02-01 11:41:08.991907,2024-02-01 11:41:08.991913,28,9,3,Racer: Pedro Pacheco in Track: Fafe
-2024-02-01 11:41:09.065386,2024-02-01 11:41:09.065393,29,16,3,Racer: António Guimarães in Track: Fafe
-2024-02-01 11:41:09.178299,2024-02-01 11:41:09.178309,30,12,3,Racer: Gonçalo Garrett in Track: Fafe
-2024-02-01 11:41:09.270310,2024-02-01 11:41:09.270317,31,20,3,Racer: Manuel Bruschy in Track: Fafe
-2024-02-01 11:41:09.295160,2024-02-01 11:41:09.295163,32,23,3,Racer: Pedro Pontes in Track: Fafe
-2024-02-01 11:44:43.980038,2024-02-01 11:44:43.980045,33,2,4,Racer: João Couceiro in Track: Braga
-2024-02-01 11:44:44.082196,2024-02-01 11:44:44.082206,34,8,4,Racer: Francisco Lima in Track: Braga
-2024-02-01 11:44:44.142540,2024-02-01 11:44:44.142545,35,3,4,Racer: Miguel Caeiro in Track: Braga
-2024-02-01 11:44:44.187392,2024-02-01 11:44:44.187401,36,11,4,Racer: Luís Dias in Track: Braga
-2024-02-01 11:44:44.267264,2024-02-01 11:44:44.267271,37,1,4,Racer: Francisco Matos Gil in Track: Braga
-2024-02-01 11:44:44.354006,2024-02-01 11:44:44.354029,38,6,4,Racer: Luís Ferreira in Track: Braga
-2024-02-01 11:44:44.430886,2024-02-01 11:44:44.430896,39,4,4,Racer: Dinis Brito e Faro in Track: Braga
-2024-02-01 11:44:44.461940,2024-02-01 11:44:44.461945,40,9,4,Racer: Pedro Pacheco in Track: Braga
-2024-02-01 11:44:44.533656,2024-02-01 11:44:44.533665,41,10,4,Racer: Francisco Freitas in Track: Braga
-2024-02-01 11:44:44.598980,2024-02-01 11:44:44.598989,42,13,4,Racer: Miguel Sousa Guedes in Track: Braga
-2024-02-01 11:44:44.651620,2024-02-01 11:44:44.651627,43,12,4,Racer: Gonçalo Garrett in Track: Braga
-2024-02-01 11:44:44.712680,2024-02-01 11:44:44.712685,44,24,4,Racer: Gonçalo Semelhe in Track: Braga
-2024-02-01 11:44:44.810892,2024-02-01 11:44:44.810899,45,14,4,Racer: Tomás Marrana in Track: Braga
-2024-02-01 11:44:44.871535,2024-02-01 11:44:44.871544,46,7,4,Racer: Henrique Vilas in Track: Braga
-2024-02-01 11:44:44.906666,2024-02-01 11:44:44.906671,47,25,4,Racer: José Maria Garrett in Track: Braga
-2024-02-01 11:44:44.952226,2024-02-01 11:44:44.952231,48,26,4,Racer: Tomás Pacheco in Track: Braga
-2024-02-01 11:48:26.425755,2024-02-01 11:48:26.425779,49,3,5,Racer: Miguel Caeiro in Track: Poiares
-2024-02-01 11:48:26.480866,2024-02-01 11:48:26.480870,50,1,5,Racer: Francisco Matos Gil in Track: Poiares
-2024-02-01 11:48:26.501594,2024-02-01 11:48:26.501603,51,4,5,Racer: Dinis Brito e Faro in Track: Poiares
-2024-02-01 11:48:26.521404,2024-02-01 11:48:26.521409,52,13,5,Racer: Miguel Sousa Guedes in Track: Poiares
-2024-02-01 11:48:26.544625,2024-02-01 11:48:26.544631,53,10,5,Racer: Francisco Freitas in Track: Poiares
-2024-02-01 11:48:26.567828,2024-02-01 11:48:26.567837,54,6,5,Racer: Luís Ferreira in Track: Poiares
-2024-02-01 11:48:26.584195,2024-02-01 11:48:26.584201,55,7,5,Racer: Henrique Vilas in Track: Poiares
-2024-02-01 11:48:26.612479,2024-02-01 11:48:26.612484,56,8,5,Racer: Francisco Lima in Track: Poiares
-2024-02-01 11:48:26.697324,2024-02-01 11:48:26.697331,57,27,5,Racer: Frederico Batista in Track: Poiares
-2024-02-01 11:48:26.861466,2024-02-01 11:48:26.861480,58,24,5,Racer: Gonçalo Semelhe in Track: Poiares
-2024-02-01 11:48:26.920607,2024-02-01 11:48:26.920613,59,16,5,Racer: António Guimarães in Track: Poiares
-2024-02-01 11:48:26.966922,2024-02-01 11:48:26.966929,60,2,5,Racer: João Couceiro in Track: Poiares
-2024-02-01 11:48:27.016011,2024-02-01 11:48:27.016030,61,12,5,Racer: Gonçalo Garrett in Track: Poiares
-2024-02-01 11:48:27.100900,2024-02-01 11:48:27.100912,62,28,5,Racer: Afonso Menezes in Track: Poiares
-2024-02-01 11:48:27.188893,2024-02-01 11:48:27.188901,63,29,5,Racer: José Couceiro in Track: Poiares
-2024-02-01 11:53:42.839112,2024-02-01 11:53:42.839140,64,1,6,Racer: Francisco Matos Gil in Track: Viana
-2024-02-01 11:53:42.902061,2024-02-01 11:53:42.902071,65,6,6,Racer: Luís Ferreira in Track: Viana
-2024-02-01 11:53:42.965253,2024-02-01 11:53:42.965262,66,3,6,Racer: Miguel Caeiro in Track: Viana
-2024-02-01 11:53:43.052778,2024-02-01 11:53:43.052811,67,2,6,Racer: João Couceiro in Track: Viana
-2024-02-01 11:53:43.142622,2024-02-01 11:53:43.142630,68,5,6,Racer: Alexandre Campelo in Track: Viana
-2024-02-01 11:53:43.215130,2024-02-01 11:53:43.215138,69,4,6,Racer: Dinis Brito e Faro in Track: Viana
-2024-02-01 11:53:43.289347,2024-02-01 11:53:43.289355,70,9,6,Racer: Pedro Pacheco in Track: Viana
-2024-02-01 11:53:43.347792,2024-02-01 11:53:43.347799,71,14,6,Racer: Tomás Marrana in Track: Viana
-2024-02-01 11:53:43.396775,2024-02-01 11:53:43.396782,72,10,6,Racer: Francisco Freitas in Track: Viana
-2024-02-01 11:53:43.440261,2024-02-01 11:53:43.440268,73,7,6,Racer: Henrique Vilas in Track: Viana
-2024-02-01 11:53:43.503314,2024-02-01 11:53:43.503332,74,11,6,Racer: Luís Dias in Track: Viana
-2024-02-01 11:53:43.551340,2024-02-01 11:53:43.551344,75,12,6,Racer: Gonçalo Garrett in Track: Viana
-2024-02-01 11:53:43.615980,2024-02-01 11:53:43.615988,76,20,6,Racer: Manuel Bruschy in Track: Viana
-2024-02-01 11:53:43.677922,2024-02-01 11:53:43.677928,77,30,6,Racer: Tomás Duarte in Track: Viana
-2024-02-01 11:53:43.731756,2024-02-01 11:53:43.731764,78,26,6,Racer: Tomás Pacheco in Track: Viana
-2024-02-01 11:53:43.780210,2024-02-01 11:53:43.780218,79,31,6,Racer: Maria Campelo in Track: Viana
-2024-02-01 11:57:44.467921,2024-02-01 11:57:44.467926,80,4,7,Racer: Dinis Brito e Faro in Track: Bombarral
-2024-02-01 11:57:44.494543,2024-02-01 11:57:44.494548,81,5,7,Racer: Alexandre Campelo in Track: Bombarral
-2024-02-01 11:57:44.515160,2024-02-01 11:57:44.515163,82,2,7,Racer: João Couceiro in Track: Bombarral
-2024-02-01 11:57:44.538231,2024-02-01 11:57:44.538240,83,15,7,Racer: José Pedro Raimundo in Track: Bombarral
-2024-02-01 11:57:44.552636,2024-02-01 11:57:44.552639,84,7,7,Racer: Henrique Vilas in Track: Bombarral
-2024-02-01 11:57:44.568656,2024-02-01 11:57:44.568658,85,14,7,Racer: Tomás Marrana in Track: Bombarral
-2024-02-01 11:57:44.583733,2024-02-01 11:57:44.583736,86,17,7,Racer: Gonçalo Ramalho in Track: Bombarral
-2024-02-01 11:57:44.598731,2024-02-01 11:57:44.598734,87,31,7,Racer: Maria Campelo in Track: Bombarral
-2024-02-01 11:57:44.610763,2024-02-01 11:57:44.610765,88,27,7,Racer: Frederico Batista in Track: Bombarral
-2024-02-01 11:57:44.625560,2024-02-01 11:57:44.625566,89,30,7,Racer: Tomás Duarte in Track: Bombarral
-2024-02-01 11:57:44.639471,2024-02-01 11:57:44.639473,90,28,7,Racer: Afonso Menezes in Track: Bombarral
-2024-02-01 11:57:44.651258,2024-02-01 11:57:44.651260,91,25,7,Racer: José Maria Garrett in Track: Bombarral
-2024-02-01 13:43:34.289591,2024-02-01 13:43:34.289786,92,1,8,Racer: Francisco Matos Gil in Track: V N Paiva
-2024-02-01 13:43:34.393844,2024-02-01 13:43:34.393854,93,6,8,Racer: Luís Ferreira in Track: V N Paiva
-2024-02-01 13:43:34.489047,2024-02-01 13:43:34.489057,94,4,8,Racer: Dinis Brito e Faro in Track: V N Paiva
-2024-02-01 13:43:34.578459,2024-02-01 13:43:34.578468,95,2,8,Racer: João Couceiro in Track: V N Paiva
-2024-02-01 13:43:34.674201,2024-02-01 13:43:34.674210,96,9,8,Racer: Pedro Pacheco in Track: V N Paiva
-2024-02-01 13:43:34.802291,2024-02-01 13:43:34.802301,97,3,8,Racer: Miguel Caeiro in Track: V N Paiva
-2024-02-01 13:43:34.883746,2024-02-01 13:43:34.883760,98,11,8,Racer: Luís Dias in Track: V N Paiva
-2024-02-01 13:43:34.925951,2024-02-01 13:43:34.925955,99,8,8,Racer: Francisco Lima in Track: V N Paiva
-2024-02-01 13:43:34.999484,2024-02-01 13:43:34.999493,100,7,8,Racer: Henrique Vilas in Track: V N Paiva
-2024-02-01 13:43:35.085379,2024-02-01 13:43:35.085386,101,10,8,Racer: Francisco Freitas in Track: V N Paiva
-2024-02-01 13:43:35.196675,2024-02-01 13:43:35.196684,102,5,8,Racer: Alexandre Campelo in Track: V N Paiva
-2024-02-01 13:43:35.257520,2024-02-01 13:43:35.257526,103,12,8,Racer: Gonçalo Garrett in Track: V N Paiva
-2024-02-01 13:43:35.363580,2024-02-01 13:43:35.363591,104,17,8,Racer: Gonçalo Ramalho in Track: V N Paiva
-2024-02-01 13:46:02.713744,2024-02-01 13:46:02.713754,105,2,1,Racer: João Couceiro in Track: Vila Real 
-2024-02-01 13:46:02.768195,2024-02-01 13:46:02.768202,106,3,1,Racer: Miguel Caeiro in Track: Vila Real 
-2024-02-01 13:46:02.808701,2024-02-01 13:46:02.808708,107,9,1,Racer: Pedro Pacheco in Track: Vila Real 
-2024-02-01 13:46:02.846080,2024-02-01 13:46:02.846086,108,7,1,Racer: Henrique Vilas in Track: Vila Real 
-2024-02-01 13:46:02.993376,2024-02-01 13:46:02.993387,109,29,1,Racer: José Couceiro in Track: Vila Real 
-2024-02-01 13:46:03.060128,2024-02-01 13:46:03.060136,110,10,1,Racer: Francisco Freitas in Track: Vila Real 
-2024-02-01 13:46:03.135462,2024-02-01 13:46:03.135470,111,17,1,Racer: Gonçalo Ramalho in Track: Vila Real 
-2024-02-01 13:46:03.188657,2024-02-01 13:46:03.188664,112,4,1,Racer: Dinis Brito e Faro in Track: Vila Real 
-2024-02-01 13:46:03.262254,2024-02-01 13:46:03.262275,113,12,1,Racer: Gonçalo Garrett in Track: Vila Real 
-2024-02-01 13:46:03.414050,2024-02-01 13:46:03.414068,114,5,1,Racer: Alexandre Campelo in Track: Vila Real 
-2024-02-01 13:46:03.509736,2024-02-01 13:46:03.509741,115,31,1,Racer: Maria Campelo in Track: Vila Real 
+2024-02-02 20:08:30.275339,2024-02-02 20:08:30.275342,1,1,2,Racer: Francisco Matos Gil in Track: Baltar
+2024-02-02 20:08:30.307721,2024-02-02 20:08:30.307724,2,4,2,Racer: Dinis Brito e Faro in Track: Baltar
+2024-02-02 20:08:30.345183,2024-02-02 20:08:30.345188,3,13,2,Racer: Miguel Sousa Guedes in Track: Baltar
+2024-02-02 20:08:30.387644,2024-02-02 20:08:30.387652,4,5,2,Racer: Alexandre Campelo in Track: Baltar
+2024-02-02 20:08:30.442394,2024-02-02 20:08:30.442404,5,8,2,Racer: Francisco Lima in Track: Baltar
+2024-02-02 20:08:30.481650,2024-02-02 20:08:30.481653,6,2,2,Racer: João Couceiro in Track: Baltar
+2024-02-02 20:08:30.519175,2024-02-02 20:08:30.519217,7,17,2,Racer: Gonçalo Ramalho in Track: Baltar
+2024-02-02 20:08:30.567650,2024-02-02 20:08:30.567657,8,12,2,Racer: Gonçalo Garrett in Track: Baltar
+2024-02-02 20:08:30.590725,2024-02-02 20:08:30.590728,9,16,2,Racer: António Guimarães in Track: Baltar
+2024-02-02 20:08:30.627472,2024-02-02 20:08:30.627475,10,18,2,Racer: Meco Guedes in Track: Baltar
+2024-02-02 20:08:30.646697,2024-02-02 20:08:30.646700,11,15,2,Racer: José Pedro Raimundo in Track: Baltar
+2024-02-02 20:08:30.761405,2024-02-02 20:08:30.761412,12,7,2,Racer: Henrique Vilas in Track: Baltar
+2024-02-02 20:08:30.813164,2024-02-02 20:08:30.813169,13,14,2,Racer: Tomás Marrana in Track: Baltar
+2024-02-02 20:08:30.842347,2024-02-02 20:08:30.842350,14,10,2,Racer: Francisco Freitas in Track: Baltar
+2024-02-02 20:08:30.865657,2024-02-02 20:08:30.865660,15,19,2,Racer: Martinho Brito in Track: Baltar
+2024-02-02 20:08:30.882647,2024-02-02 20:08:30.882650,16,20,2,Racer: Manuel Bruschy in Track: Baltar
+2024-02-03 09:30:27.513539,2024-02-03 09:30:27.513546,17,5,3,Racer: Alexandre Campelo in Track: Fafe
+2024-02-03 09:30:27.559508,2024-02-03 09:30:27.559513,18,11,3,Racer: Luís Dias in Track: Fafe
+2024-02-03 09:30:27.593845,2024-02-03 09:30:27.593852,19,3,3,Racer: Miguel Caeiro in Track: Fafe
+2024-02-03 09:30:27.621425,2024-02-03 09:30:27.621429,20,2,3,Racer: João Couceiro in Track: Fafe
+2024-02-03 09:30:27.646752,2024-02-03 09:30:27.646755,21,1,3,Racer: Francisco Matos Gil in Track: Fafe
+2024-02-03 09:30:27.680898,2024-02-03 09:30:27.680910,22,21,3,Racer: André Costa in Track: Fafe
+2024-02-03 09:30:27.705590,2024-02-03 09:30:27.705594,23,22,3,Racer: Gui Azevedo in Track: Fafe
+2024-02-03 09:30:27.735165,2024-02-03 09:30:27.735168,24,4,3,Racer: Dinis Brito e Faro in Track: Fafe
+2024-02-03 09:30:27.780782,2024-02-03 09:30:27.780786,25,15,3,Racer: José Pedro Raimundo in Track: Fafe
+2024-02-03 09:30:27.818702,2024-02-03 09:30:27.818711,26,8,3,Racer: Francisco Lima in Track: Fafe
+2024-02-03 09:30:27.888065,2024-02-03 09:30:27.888070,27,14,3,Racer: Tomás Marrana in Track: Fafe
+2024-02-03 09:30:28.013730,2024-02-03 09:30:28.013736,28,9,3,Racer: Pedro Pacheco in Track: Fafe
+2024-02-03 09:30:28.059641,2024-02-03 09:30:28.059647,29,16,3,Racer: António Guimarães in Track: Fafe
+2024-02-03 09:30:28.124125,2024-02-03 09:30:28.124131,30,12,3,Racer: Gonçalo Garrett in Track: Fafe
+2024-02-03 09:30:28.214568,2024-02-03 09:30:28.214578,31,20,3,Racer: Manuel Bruschy in Track: Fafe
+2024-02-03 09:30:28.252441,2024-02-03 09:30:28.252446,32,23,3,Racer: Pedro Pontes in Track: Fafe
+2024-02-03 09:32:54.744487,2024-02-03 09:32:54.744491,33,2,4,Racer: João Couceiro in Track: Braga
+2024-02-03 09:32:54.815765,2024-02-03 09:32:54.815775,34,8,4,Racer: Francisco Lima in Track: Braga
+2024-02-03 09:32:54.865432,2024-02-03 09:32:54.865444,35,3,4,Racer: Miguel Caeiro in Track: Braga
+2024-02-03 09:32:54.907816,2024-02-03 09:32:54.907894,36,11,4,Racer: Luís Dias in Track: Braga
+2024-02-03 09:32:54.936745,2024-02-03 09:32:54.936751,37,1,4,Racer: Francisco Matos Gil in Track: Braga
+2024-02-03 09:32:54.973488,2024-02-03 09:32:54.973538,38,6,4,Racer: Luís Ferreira in Track: Braga
+2024-02-03 09:32:55.022016,2024-02-03 09:32:55.022025,39,4,4,Racer: Dinis Brito e Faro in Track: Braga
+2024-02-03 09:32:55.053044,2024-02-03 09:32:55.053048,40,9,4,Racer: Pedro Pacheco in Track: Braga
+2024-02-03 09:32:55.084073,2024-02-03 09:32:55.084080,41,10,4,Racer: Francisco Freitas in Track: Braga
+2024-02-03 09:32:55.125220,2024-02-03 09:32:55.125224,42,13,4,Racer: Miguel Sousa Guedes in Track: Braga
+2024-02-03 09:32:55.183507,2024-02-03 09:32:55.183517,43,12,4,Racer: Gonçalo Garrett in Track: Braga
+2024-02-03 09:32:55.274311,2024-02-03 09:32:55.274320,44,24,4,Racer: Gonçalo Semelhe in Track: Braga
+2024-02-03 09:32:55.320853,2024-02-03 09:32:55.320856,45,14,4,Racer: Tomás Marrana in Track: Braga
+2024-02-03 09:32:55.348470,2024-02-03 09:32:55.348473,46,7,4,Racer: Henrique Vilas in Track: Braga
+2024-02-03 09:32:55.360077,2024-02-03 09:32:55.360079,47,25,4,Racer: José Maria Garrett in Track: Braga
+2024-02-03 09:32:55.371467,2024-02-03 09:32:55.371469,48,26,4,Racer: Tomás Pacheco in Track: Braga
+2024-02-03 09:37:59.982341,2024-02-03 09:37:59.982345,49,3,5,Racer: Miguel Caeiro in Track: Poiares
+2024-02-03 09:38:00.021149,2024-02-03 09:38:00.021153,50,1,5,Racer: Francisco Matos Gil in Track: Poiares
+2024-02-03 09:38:00.044838,2024-02-03 09:38:00.044843,51,4,5,Racer: Dinis Brito e Faro in Track: Poiares
+2024-02-03 09:38:00.071745,2024-02-03 09:38:00.071749,52,13,5,Racer: Miguel Sousa Guedes in Track: Poiares
+2024-02-03 09:38:00.106073,2024-02-03 09:38:00.106078,53,10,5,Racer: Francisco Freitas in Track: Poiares
+2024-02-03 09:38:00.139420,2024-02-03 09:38:00.139424,54,6,5,Racer: Luís Ferreira in Track: Poiares
+2024-02-03 09:38:00.174429,2024-02-03 09:38:00.174437,55,7,5,Racer: Henrique Vilas in Track: Poiares
+2024-02-03 09:38:00.221172,2024-02-03 09:38:00.221180,56,8,5,Racer: Francisco Lima in Track: Poiares
+2024-02-03 09:38:00.258357,2024-02-03 09:38:00.258365,57,27,5,Racer: Frederico Batista in Track: Poiares
+2024-02-03 09:38:00.317940,2024-02-03 09:38:00.317968,58,24,5,Racer: Gonçalo Semelhe in Track: Poiares
+2024-02-03 09:38:00.368752,2024-02-03 09:38:00.368762,59,16,5,Racer: António Guimarães in Track: Poiares
+2024-02-03 09:38:00.445388,2024-02-03 09:38:00.445401,60,2,5,Racer: João Couceiro in Track: Poiares
+2024-02-03 09:38:00.503750,2024-02-03 09:38:00.503767,61,12,5,Racer: Gonçalo Garrett in Track: Poiares
+2024-02-03 09:38:00.559652,2024-02-03 09:38:00.559660,62,28,5,Racer: Afonso Menezes in Track: Poiares
+2024-02-03 09:38:00.597200,2024-02-03 09:38:00.597206,63,29,5,Racer: José Couceiro in Track: Poiares
+2024-02-03 09:39:18.039233,2024-02-03 09:39:18.039237,64,1,6,Racer: Francisco Matos Gil in Track: Viana
+2024-02-03 09:39:18.067509,2024-02-03 09:39:18.067517,65,6,6,Racer: Luís Ferreira in Track: Viana
+2024-02-03 09:39:18.124353,2024-02-03 09:39:18.124363,66,3,6,Racer: Miguel Caeiro in Track: Viana
+2024-02-03 09:39:18.158059,2024-02-03 09:39:18.158064,67,2,6,Racer: João Couceiro in Track: Viana
+2024-02-03 09:39:18.190024,2024-02-03 09:39:18.190032,68,5,6,Racer: Alexandre Campelo in Track: Viana
+2024-02-03 09:39:18.240404,2024-02-03 09:39:18.240412,69,4,6,Racer: Dinis Brito e Faro in Track: Viana
+2024-02-03 09:39:18.305813,2024-02-03 09:39:18.305835,70,9,6,Racer: Pedro Pacheco in Track: Viana
+2024-02-03 09:39:18.385901,2024-02-03 09:39:18.385911,71,14,6,Racer: Tomás Marrana in Track: Viana
+2024-02-03 09:39:18.441761,2024-02-03 09:39:18.441768,72,10,6,Racer: Francisco Freitas in Track: Viana
+2024-02-03 09:39:18.516630,2024-02-03 09:39:18.516642,73,7,6,Racer: Henrique Vilas in Track: Viana
+2024-02-03 09:39:18.578884,2024-02-03 09:39:18.578890,74,11,6,Racer: Luís Dias in Track: Viana
+2024-02-03 09:39:18.644076,2024-02-03 09:39:18.644081,75,12,6,Racer: Gonçalo Garrett in Track: Viana
+2024-02-03 09:39:18.682630,2024-02-03 09:39:18.682636,76,20,6,Racer: Manuel Bruschy in Track: Viana
+2024-02-03 09:39:18.726284,2024-02-03 09:39:18.726290,77,30,6,Racer: Tomás Duarte in Track: Viana
+2024-02-03 09:39:18.790859,2024-02-03 09:39:18.790874,78,26,6,Racer: Tomás Pacheco in Track: Viana
+2024-02-03 09:39:18.857412,2024-02-03 09:39:18.857426,79,31,6,Racer: Maria Campelo in Track: Viana
+2024-02-03 09:40:32.946324,2024-02-03 09:40:32.946331,80,4,7,Racer: Dinis Brito e Faro in Track: Bombarral
+2024-02-03 09:40:32.972347,2024-02-03 09:40:32.972354,81,5,7,Racer: Alexandre Campelo in Track: Bombarral
+2024-02-03 09:40:33.000697,2024-02-03 09:40:33.000706,82,2,7,Racer: João Couceiro in Track: Bombarral
+2024-02-03 09:40:33.040213,2024-02-03 09:40:33.040219,83,15,7,Racer: José Pedro Raimundo in Track: Bombarral
+2024-02-03 09:40:33.067484,2024-02-03 09:40:33.067492,84,7,7,Racer: Henrique Vilas in Track: Bombarral
+2024-02-03 09:40:33.104776,2024-02-03 09:40:33.104779,85,14,7,Racer: Tomás Marrana in Track: Bombarral
+2024-02-03 09:40:33.127770,2024-02-03 09:40:33.127780,86,17,7,Racer: Gonçalo Ramalho in Track: Bombarral
+2024-02-03 09:40:33.148683,2024-02-03 09:40:33.148687,87,31,7,Racer: Maria Campelo in Track: Bombarral
+2024-02-03 09:40:33.169971,2024-02-03 09:40:33.169975,88,27,7,Racer: Frederico Batista in Track: Bombarral
+2024-02-03 09:40:33.202378,2024-02-03 09:40:33.202388,89,30,7,Racer: Tomás Duarte in Track: Bombarral
+2024-02-03 09:40:33.255837,2024-02-03 09:40:33.255847,90,28,7,Racer: Afonso Menezes in Track: Bombarral
+2024-02-03 09:40:33.307062,2024-02-03 09:40:33.307071,91,25,7,Racer: José Maria Garrett in Track: Bombarral
+2024-02-03 09:42:29.950473,2024-02-03 09:42:29.950477,92,1,8,Racer: Francisco Matos Gil in Track: V N Paiva
+2024-02-03 09:42:30.001654,2024-02-03 09:42:30.001662,93,6,8,Racer: Luís Ferreira in Track: V N Paiva
+2024-02-03 09:42:30.044513,2024-02-03 09:42:30.044527,94,4,8,Racer: Dinis Brito e Faro in Track: V N Paiva
+2024-02-03 09:42:30.082365,2024-02-03 09:42:30.082371,95,2,8,Racer: João Couceiro in Track: V N Paiva
+2024-02-03 09:42:30.137074,2024-02-03 09:42:30.137083,96,9,8,Racer: Pedro Pacheco in Track: V N Paiva
+2024-02-03 09:42:30.185481,2024-02-03 09:42:30.185487,97,3,8,Racer: Miguel Caeiro in Track: V N Paiva
+2024-02-03 09:42:30.239752,2024-02-03 09:42:30.239762,98,11,8,Racer: Luís Dias in Track: V N Paiva
+2024-02-03 09:42:30.281820,2024-02-03 09:42:30.281827,99,8,8,Racer: Francisco Lima in Track: V N Paiva
+2024-02-03 09:42:30.313232,2024-02-03 09:42:30.313239,100,7,8,Racer: Henrique Vilas in Track: V N Paiva
+2024-02-03 09:42:30.350309,2024-02-03 09:42:30.350315,101,10,8,Racer: Francisco Freitas in Track: V N Paiva
+2024-02-03 09:42:30.410311,2024-02-03 09:42:30.410323,102,5,8,Racer: Alexandre Campelo in Track: V N Paiva
+2024-02-03 09:42:30.527348,2024-02-03 09:42:30.527361,103,12,8,Racer: Gonçalo Garrett in Track: V N Paiva
+2024-02-03 09:42:30.598446,2024-02-03 09:42:30.598451,104,17,8,Racer: Gonçalo Ramalho in Track: V N Paiva
+2024-02-03 09:44:19.757782,2024-02-03 09:44:19.757792,105,2,1,Racer: João Couceiro in Track: Vila Real 
+2024-02-03 09:44:19.808802,2024-02-03 09:44:19.808810,106,3,1,Racer: Miguel Caeiro in Track: Vila Real 
+2024-02-03 09:44:19.842723,2024-02-03 09:44:19.842729,107,9,1,Racer: Pedro Pacheco in Track: Vila Real 
+2024-02-03 09:44:19.864417,2024-02-03 09:44:19.864425,108,7,1,Racer: Henrique Vilas in Track: Vila Real 
+2024-02-03 09:44:19.895515,2024-02-03 09:44:19.895528,109,29,1,Racer: José Couceiro in Track: Vila Real 
+2024-02-03 09:44:19.921584,2024-02-03 09:44:19.921591,110,10,1,Racer: Francisco Freitas in Track: Vila Real 
+2024-02-03 09:44:19.979563,2024-02-03 09:44:19.979572,111,17,1,Racer: Gonçalo Ramalho in Track: Vila Real 
+2024-02-03 09:44:20.032943,2024-02-03 09:44:20.032952,112,4,1,Racer: Dinis Brito e Faro in Track: Vila Real 
+2024-02-03 09:44:20.062759,2024-02-03 09:44:20.062767,113,12,1,Racer: Gonçalo Garrett in Track: Vila Real 
+2024-02-03 09:44:20.101803,2024-02-03 09:44:20.101811,114,5,1,Racer: Alexandre Campelo in Track: Vila Real 
+2024-02-03 09:44:20.133608,2024-02-03 09:44:20.133619,115,31,1,Racer: Maria Campelo in Track: Vila Real 

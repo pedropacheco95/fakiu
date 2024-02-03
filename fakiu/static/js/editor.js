@@ -67,31 +67,6 @@ function createDraggableRows(row){
     });
 }
 
-/* const draggables = document.querySelectorAll('.draggable');
-const racerListBody = document.getElementById('racerListBody');
-
-draggables.forEach(draggable => {
-    draggable.addEventListener('dragstart', () => {
-        draggable.classList.add('dragging');
-    });
-
-    draggable.addEventListener('dragend', () => {
-        draggable.classList.remove('dragging');
-        updatePlaces();
-    });
-});
-
-racerListBody.addEventListener('dragover', e => {
-    e.preventDefault();
-    const afterElement = getDragAfterElement(racerListBody, e.clientY);
-    const draggable = document.querySelector('.dragging');
-    if (afterElement == null) {
-      racerListBody.appendChild(draggable);
-    } else {
-      racerListBody.insertBefore(draggable, afterElement);
-    }
-});
-
 function getDragAfterElement(container, y) {
     const draggableElements = [...container.querySelectorAll('.draggable:not(.dragging)')];
 
@@ -112,14 +87,14 @@ function updatePlaces() {
         draggable.querySelector('input.racerPlace').value = index + 1;
         draggable.querySelector('.place_column').innerHTML = index + 1;
     });
-} */
+}
 
 function raceResultsCreationTable(element){
   var value = element.value;
   let alreadySet = element.dataset.tableCreated
   if (!alreadySet) {
     let url = `/api/race_results_creation_table/${value}`
-    $.getJSON(url, function(data) {
+    customGetJSON(url, function(data) {
       document.getElementById('race_table_inputs').innerHTML = data.html;
     });
     element.dataset.tableCreated = true;
@@ -141,8 +116,32 @@ function raceResultsCreationTable(element){
 
 function addRaceResultRows(tableBody,index,rowsToAdd){
   let url = `/api/race_results_creation_row/${index}/${rowsToAdd}`
-  $.getJSON(url, function(data) {
+  customGetJSON(url, function(data) {
     tableBody.innerHTML += data.html;
+  });
+  const draggables = document.querySelectorAll('.draggable');
+  const racerListBody = document.getElementById('racerListBody');
+
+  draggables.forEach(draggable => {
+      draggable.addEventListener('dragstart', () => {
+          draggable.classList.add('dragging');
+      });
+
+      draggable.addEventListener('dragend', () => {
+          draggable.classList.remove('dragging');
+          updatePlaces();
+      });
+  });
+
+  racerListBody.addEventListener('dragover', e => {
+      e.preventDefault();
+      const afterElement = getDragAfterElement(racerListBody, e.clientY);
+      const draggable = document.querySelector('.dragging');
+      if (afterElement == null) {
+        racerListBody.appendChild(draggable);
+      } else {
+        racerListBody.insertBefore(draggable, afterElement);
+      }
   });
 }
 

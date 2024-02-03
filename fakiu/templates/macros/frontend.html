@@ -32,6 +32,9 @@
             </div>
             <div class="racer-team">{{championship_row['team'].racers[0].surname}}/{{championship_row['team'].racers[1].surname}}</div>
         </div>
+        <div class="team-kart-picture-container">
+            <img loading="lazy" class="team-kart-picture" src="{{championship_row['team'].kart_image_full_url()}}" alt="Racer image">
+        </div>
         <div class="racer-points-container">
             <div class="racer-points">
                 <span class="racer-points-bubble">{{championship_row['points']}} PTS</span>

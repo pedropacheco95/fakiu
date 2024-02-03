@@ -2281,6 +2281,10 @@
         align-items: center;
         flex-direction: row;
         width: 100%; }
+        .standings_container_width .standings_row .standings_link .team-kart-picture-container {
+          height: 3rem; }
+          .standings_container_width .standings_row .standings_link .team-kart-picture-container img {
+            height: 100%; }
         .standings_container_width .standings_row .standings_link .racer-info-container {
           width: 90%;
           display: flex;

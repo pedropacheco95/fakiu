@@ -36,7 +36,7 @@ class Race(db.Model ,model.Model,model.Base):
     
     @hybrid_property
     def racers(self):
-        return [rel.race for rel in self.racers_relations]
+        return [rel.racer for rel in self.racers_relations]
 
     def display_all_info(self):
         searchable_column = {'field': 'name','label':'Nome'}

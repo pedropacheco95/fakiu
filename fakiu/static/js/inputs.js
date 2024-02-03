@@ -130,7 +130,7 @@ function getAllOptions(ele){
     let model_name = ele.dataset.related_model;
     let many_to_many_values_inputed = document.getElementsByClassName('many_to_many_values_inputed');
     let values = Array.from(many_to_many_values_inputed).map(el => +el.dataset.value);
-    $.getJSON(`/api/query/${model_name}` , function(data) {
+    customGetJSON(`/api/query/${model_name}` , function(data) {
         for (let option of data) {
             let option_text = option.name;
             let option_value = option.value;

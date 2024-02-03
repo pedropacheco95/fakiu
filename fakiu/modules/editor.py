@@ -77,7 +77,7 @@ def create_race_results(model_name,model_id):
         points_dict = {k: v for d in points_dict for k, v in d.items()}
         racers = [int(ele) for ele in request.form.getlist('racer')]
         racer_places = [int(ele) for ele in request.form.getlist('racerPlace')]
-        qualification = [int(ele) for ele in request.form.getlist('qualification')]
+        qualification = [int(ele) if ele else 0 for ele in request.form.getlist('qualification')]
         fastest_lap = [ele=='true' for ele in request.form.getlist('fastest_lap')]
         results = zip(racers, racer_places,qualification,fastest_lap)
         for item in results:

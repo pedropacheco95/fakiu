@@ -60,6 +60,7 @@
     </div>
     <div class="content_container standings_container" id="racers_standings_container">
         <div class="content_width standings_container_width">
+            {% if championship_table %}
             <div class="podium_container">
                 {{ frontend.podium_racer(2,championship_table[1]['racer'])}}
                 {{ frontend.podium_racer(1,championship_table[0]['racer'])}}
@@ -70,10 +71,12 @@
                 {{frontend.standings_racer_row(row)}}
                 {% endfor %}
             </ul>
+            {% endif %}
         </div>
     </div>
     <div class="content_container standings_container inactive_tab_content" id="teams_standings_container">
         <div class="content_width standings_container_width">
+            {% if championship_table_teams %}
             <div class="podium_container">
                 {{ frontend.podium_team(2,championship_table_teams[1]['team'])}}
                 {{ frontend.podium_team(1,championship_table_teams[0]['team'])}}
@@ -84,10 +87,12 @@
                 {{frontend.standings_team_row(row)}}
                 {% endfor %}
             </ul>
+            {% endif %}
         </div>
     </div>
     <div class="content_container standings_container inactive_tab_content" id="last_race_standings_container">
         <div class="content_width standings_container_width">
+            {% if championship_table_last_race %}
             <div class="podium_container">
                 {{ frontend.podium_racer(2,championship_table_last_race[1]['racer'])}}
                 {{ frontend.podium_racer(1,championship_table_last_race[0]['racer'])}}
@@ -98,6 +103,7 @@
                 {{frontend.standings_racer_row(row)}}
                 {% endfor %}
             </ul>
+            {% endif %}
         </div>
     </div>
 </div>

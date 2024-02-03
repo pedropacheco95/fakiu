@@ -9,6 +9,7 @@ coverage==5.5
 cycler==0.11.0
 Flask==2.0.1
 Flask-Assets==2.0
+Flask-Login==0.6.3
 Flask-Mail==0.9.1
 Flask-Migrate==4.0.3
 Flask-Session==0.4.0
@@ -25,6 +26,7 @@ kiwisolver==1.4.4
 Mako==1.2.4
 MarkupSafe==2.0.1
 matplotlib==3.6.3
+numpy==1.24.4
 packaging==21.0
 Pillow==9.4.0
 pluggy==0.13.1

@@ -102,6 +102,13 @@
             flex-direction: row;
             width: 100%;
 
+            .team-kart-picture-container{
+                height: 3rem;
+                img{
+                    height: 100%;
+                }
+            }
+
             .racer-info-container{
                 width: 90%;
                 display: flex;
@@ -129,6 +136,7 @@
                         min-height: 1rem;
                     }
                 }
+
                 .racer-name{
                     padding: 0 1rem 0 0rem;
                 }
